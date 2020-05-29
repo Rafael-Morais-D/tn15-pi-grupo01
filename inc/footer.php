@@ -1,6 +1,10 @@
 </section>
-<footer>
-    
+<footer class="container-fluid mt-5 mb-0 mx-0 pt-5 px-0">
+    <div class="bg-light mx-0 p-5">
+        <div class="d-flex flex-row flex-nowrap justify-content-center mt-3">
+            <small>Bake & Go &copy; | CNPJ 01.012.012/0001-99 | <a href="#" title="Políticas e Termos">Políticas de Privacidade</a> | <a href="#" title="Trocas e Devoluções">Trocas e Devoluções</a></small>
+        </div>
+    </div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
