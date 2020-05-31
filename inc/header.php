@@ -1,6 +1,6 @@
-<header>
+<body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="./assets/img/logo_p.png" alt="Logo Bake & Go" width="200px"></a>
+        <a class="navbar-brand" href="#"><img src="./assets/img/bakeandgo_logo_02_black.svg" alt="Logo Bake & Go" width="200px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,6 +32,4 @@
                 </li>
             </ul>
         </div>
-    </nav>
-</header>
-<section>
+        </nav>
