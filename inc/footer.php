@@ -35,7 +35,7 @@
             </div>
             <div class="col-12 text-center mb-5">
                 <!-- LOGO -->
-                <img src="./assets/img/bakeandgo_logo_01_white.png" alt="Logo Bake & Go" width="250px">
+                <img src="./assets/img/bakeandgo_logo_01_white.svg" alt="Logo Bake & Go" width="300px">
             </div>
             <div class="col-12 d-flex flex-row flex-wrap justify-content-center justify-content-md-between">
                 <!-- INFORMAÇÕES LEGAIS -->
