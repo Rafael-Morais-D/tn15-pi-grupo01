@@ -49,7 +49,7 @@
                 <!-- MODAL DE POLITICA DE PRIVACIDADE -->
                 <div class="modal fade" id="politicasPriv" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-scrollable">
-                    <div class="modal-content bg-bakeandgo">
+                    <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title text-dark" id="staticBackdropLabel">Políticas de Privacidade</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -70,7 +70,7 @@
                 <!-- MODAL DE TERMOS DE USO -->
                 <div class="modal fade" id="termosDeUso" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-scrollable">
-                    <div class="modal-content bg-bakeandgo">
+                    <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title text-dark" id="staticBackdropLabel">Termos de uso</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">

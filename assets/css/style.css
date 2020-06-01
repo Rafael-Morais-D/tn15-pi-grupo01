@@ -177,3 +177,7 @@ footer {
 .form-cadastro h3 {
   font-size: 1.2em;
 }
+
+.modal-content {
+  background-color: #faf8f3;
+}

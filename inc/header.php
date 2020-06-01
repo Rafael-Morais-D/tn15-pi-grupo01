@@ -1,5 +1,5 @@
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-bakeandgo">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#"><img src="./assets/img/bakeandgo_logo_02_black.svg" alt="Logo Bake & Go" width="270px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,6 +23,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-primary mb-0 ml-1" href="#">Login</a>
                 </li>
             </ul>
         </div>
