@@ -37,6 +37,7 @@ body {
   -webkit-background-clip: text;
           background-clip: text;
 }
+
 .banner h2 {
   max-width: 20rem;
   font-size: 1rem;
@@ -51,16 +52,8 @@ body {
   .banner {
     height: 100vh;
     padding: 0;
-  }
-  .banner h1 {
-    font-size: 4rem;
-    line-height: 6.5rem;
-    letter-spacing: 0.8rem;
-  }
-  .banner h2 {
-    max-width: 30rem;
-    font-size: 1.25rem;
-  }
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .row {
@@ -72,36 +65,30 @@ body {
 .card-columns {
   column-count: 2;
 }
-
 @media (min-width: 300px) and (max-width: 574.98px) {
   .card-columns {
     display: flex;
     flex-direction: column;
     }
 }
-
-
 @media (max-width: 575.98px) {
   .card-columns {
     display: flex;
     flex-direction: column;
     }
 }
-
 @media (min-width: 576px) and (max-width: 767.98px) {
   .card-columns {
     display: flex;
     flex-direction: column;
     }
 }
-
 @media (min-width: 768px) and (max-width: 991.98px) {
   .card-columns {
     display: flex;
     flex-direction: column;
     }
 }
-
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .card-columns {
     display: flex;
@@ -110,15 +97,11 @@ body {
 }
 
 .btn {
-    border-radius: 2rem;
-    background: #faf8f3;
-    border: 1px solid #000;
-    font-size: 1em;
-    color: #000;
-    margin-bottom: 40px;
-    padding: 2px 14px 2px 14px;
-    text-align: center;
-    text-decoration: none;
+  border-radius: 20px;
+  background: #faf8f3;
+  border: 1px solid #000;
+  color: #000;
+  margin-bottom: 40px;
 }
 
 .btn:hover {
@@ -155,10 +138,38 @@ body {
   background-attachment: scroll;
   background-size: cover;
   color: #fff;
-  font-size: 0.9em;
+  font-size: 0.7em;
 }
 
 .page-footer a {
-  font-size: 0.8em;
+  font-size: 1em;
   color: #fff;
+}
+
+.bg-bakeandgo {
+    background-color: #faf8f3;
+}
+
+.footer-link a {
+    text-decoration: none!important;
+    color: #fff;
+}
+
+.footer-link a:hover {
+    color: #ffffffb6;
+    border-bottom: solid 1px #ffffffb6;
+}
+
+.btn-primary {
+    border-radius: 50px!important;
+    color: black;
+    background-color: white;
+    border: solid 1px black;
+}
+
+.btn-primary:hover {
+    border-radius: 50px!important;
+    color: black;
+    background-color: #dfdfdf;
+    border: solid 1px black;
 }
