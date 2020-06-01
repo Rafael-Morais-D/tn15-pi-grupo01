@@ -1,9 +1,20 @@
 </section>
 <footer class="container-fluid mt-5 mb-0 mx-0 pt-5 px-0">
-    <div class="bg-light mx-0 p-5">
-        <div class="d-flex flex-row flex-nowrap justify-content-center mt-3">
-            <div>
+    <div class="bg-dark mx-0 p-5">
+        <div class="d-flex flex-row flex-wrap justify-content-center mt-3">
+            <div class="d-block col-12">
                 <!-- REDES SOCIAIS -->
+                <div class="col-12 mt-5 mb-5 text-center">
+                    <a href="#" class="fb-ic">
+                        <i class="fab fa-facebook-f fa-2x text-white mr-4"> </i>
+                    </a>
+                    <a href="#" class="tw-ic">
+                        <i class="fab fa-twitter fa-2x text-white mr-4"> </i>
+                    </a>
+                    <a href="#" class="ins-ic">
+                        <i class="fab fa-instagram fa-2x text-white mr-4"> </i>
+                    </a>
+                </div>
             </div>
             <div>
                 <!-- REDIRECIONAMENTOS -->
@@ -13,10 +24,10 @@
             </div>
             <div class="col-12 d-flex flex-row flex-wrap justify-content-center justify-content-md-between">
                 <!-- INFORMAÇÕES LEGAIS -->
-                <div class="d-inline text-center mr-sm-2">
+                <div class="d-inline text-center mr-sm-2 text-white">
                     <small>&copy; 2020 Bake & Go | CNPJ 01.012.012/0001-99</small>
                 </div>
-                <div class="d-inline text-center ml-sm-2">
+                <div class="d-inline text-center ml-sm-2 text-white footer-link">
                     <small><a href="#" title="Políticas e Termos">Políticas de Privacidade</a> | <a href="#" title="Trocas e Devoluções">Trocas e Devoluções</a></small>
                 </div>            
             </div>

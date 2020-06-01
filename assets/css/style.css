@@ -8,3 +8,12 @@
 .bg-bakeandgo {
     background-color: #faf8f3;
 }
+
+.footer-link a {
+    text-decoration: none!important;
+    color: #fff;
+}
+
+.footer-link a:hover {
+    color: #ffffffb6;
+}
