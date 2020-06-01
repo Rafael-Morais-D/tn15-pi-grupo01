@@ -7,7 +7,7 @@
 
 body {
   background-color: #faf8f3;
-  font-family: 'GTAmericaMono-Regular';
+  font-family: 'GTAmericaMono-Regular', monospace;
 }
 
 ::selection {
@@ -152,6 +152,14 @@ body {
 .page-footer a {
   font-size: 1em;
   color: #fff;
+}
+
+footer {
+  background-color: #faf8f3;
+  background-image: url('../img/02_bakeandgo_footer.jpg')!important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .fb-ic, .tw-ic, .ins-ic, .pin.ic:hover a {

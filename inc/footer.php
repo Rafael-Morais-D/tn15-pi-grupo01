@@ -40,10 +40,10 @@
             <div class="col-12 d-flex flex-row flex-wrap justify-content-center justify-content-md-between">
                 <!-- INFORMAÇÕES LEGAIS -->
                 <div class="d-inline text-center mr-sm-2 text-white">
-                    <small>&copy; 2020 Bake & Go | CNPJ 01.012.012/0001-99</small>
+                    &copy; 2020 Bake & Go | CNPJ 01.012.012/0001-99
                 </div>
                 <div class="d-inline text-center ml-sm-2 text-white footer-link">
-                    <small><a href="#" title="Políticas de Privacidade" data-toggle="modal" data-target="#politicasPriv">Políticas de Privacidade</a> | <a href="#" title="Termos de uso" data-toggle="modal" data-target="#termosDeUso">Termos de uso</a></small>
+                    <a href="#" title="Políticas de Privacidade" data-toggle="modal" data-target="#politicasPriv">Políticas de Privacidade</a> | <a href="#" title="Termos de uso" data-toggle="modal" data-target="#termosDeUso">Termos de uso</a>
                 </div>
                 
                 <!-- MODAL DE POLITICA DE PRIVACIDADE -->
