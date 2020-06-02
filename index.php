@@ -13,7 +13,7 @@
     <section>
     <div class="row">
       <div class="col-lg-6">
-        <h2>Pão 1</h2>
+        <h2>Pão Italiano</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
         <a href="#" class="btn btn-primary">COMPRAR</a>
       </div>
@@ -25,12 +25,12 @@
   <section>
     <div class="row">
       <div class="col-lg-6">
-        <h2>Pão 2</h2>
+        <h2>Bolo de Chocolate com cobertura de Chocolate</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
         <a href="#" class="btn btn-primary">COMPRAR</a>
       </div>
       <div class="col-lg-6 order-lg-first">
-        <img class="img-fluid" src="./assets/img/03_bakeandgo.jpg" alt="">
+        <img class="img-fluid" src="./assets/img/05_bakeandgo.jpg" alt="">
       </div>
     </div>
   </section>
@@ -55,13 +55,13 @@
                   <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro a temporibus asperiores vitae alias, cumque eligendi deserunt, unde, quam saepe inventore distinctio mollitia sequi aliquam iusto sit facilis cupiditate!</p>
               </div>
               <div class="card card-body">
-                  <span class="float-right">R$10</span>
-                  <h6 class="text-truncate">Ciabatta</h6>
+                  <span class="float-right">R$14</span>
+                  <h6 class="text-truncate">Cheesecake</h6>
                   <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem facere nemo laboriosam architecto, magnam sunt veritatis neque autem quod libero illum unde eius expedita impedit sit perferendis. Ipsa, aliquam atque.</p>
               </div>
               <div class="card card-body">
-                  <span class="float-right">R$14</span>
-                  <h6 class="text-truncate">Foccacia</h6>
+                  <span class="float-right">R$10</span>
+                  <h6 class="text-truncate">Croissant</h6>
                   <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores delectus, iusto earum nesciunt similique nulla ullam hic explicabo! Explicabo ullam rem suscipit corporis, molestias non totam. Dolorum laboriosam debitis odit.</p>
               </div>
           </div>
