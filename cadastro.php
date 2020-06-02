@@ -2,7 +2,7 @@
 <?php require_once("./inc/header.php"); ?>
 
 <!-- Form - Cadastro -->
-<div class="container-fluid py-3 mt-5">
+<div class="container-fluid py-5 mt-5">
         <div class="form-cadastro">
             <div class="col-md-6 mx-auto">
                     <div class="card card-body">
@@ -22,7 +22,7 @@
                             </div>
                             <div class="checkbox">
                                 <label class="medium">
-                                    <input name="terms" type="checkbox"> Estou de acordo com os <a href="#">Termos de Uso.</a>
+                                    <input name="terms" type="checkbox"> Estou de acordo com os <a data-toggle="modal" href="#termosDeUso">Termos de Uso.</a>
                                 </label>
                             </div>
                             <input class="btn btn-md btn-primary btn-block" value="Cadastrar" type="submit">
@@ -31,3 +31,4 @@
             </div>
         </div>
     </div>
+<?php require_once("./inc/footer.php"); ?>
