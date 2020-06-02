@@ -1,6 +1,6 @@
 </section>
 <footer class="page-footer container-fluid mt-5 mb-0 mx-0 pt-2 px-0">
-    <div class="mx-0 p-5">
+    <div class="mx-0 p-2 pb-5 p-md-5">
         <div class="d-flex flex-row flex-wrap justify-content-center mt-3">
             <div class="d-block col-12">
                 <!-- REDES SOCIAIS -->
@@ -19,23 +19,23 @@
             <div class="col-12 mb-4 text-center footer-link">
                 <!-- REDIRECIONAMENTOS -->
                 <ul>
-                    <li class="d-inline mr-3 ml-3">
+                    <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3">
                         <a href="index.php">HOME</a>
                     </li>
-                    <li class="d-inline mr-3 ml-3">
+                    <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3">
                         <a href="#">QUEM SOMOS</a>
                     </li>
-                    <li class="d-inline mr-3 ml-3">
+                    <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3">
                         <a href="#">PRODUTOS</a>
                     </li>
-                    <li class="d-inline mr-3 ml-3">
+                    <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3">
                         <a href="#">CONTATO</a>
                     </li>    
                 </ul>            
             </div>
             <div class="col-12 text-center mb-5">
                 <!-- LOGO -->
-                <img src="./assets/img/bakeandgo_logo_01_white.svg" alt="Logo Bake & Go" width="300px">
+                <img class="logo-footer" src="./assets/img/bakeandgo_logo_01_white.svg" alt="Logo Bake & Go">
             </div>
             <div class="col-12 d-flex flex-row flex-wrap justify-content-center justify-content-md-between">
                 <!-- INFORMAÇÕES LEGAIS -->
