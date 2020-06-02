@@ -20,7 +20,7 @@
                 <!-- REDIRECIONAMENTOS -->
                 <ul>
                     <li class="d-inline mr-3 ml-3">
-                        <a href="#">HOME</a>
+                        <a href="index.php">HOME</a>
                     </li>
                     <li class="d-inline mr-3 ml-3">
                         <a href="#">QUEM SOMOS</a>
@@ -61,7 +61,7 @@
                     <p>Vivamus volutpat nulla vel felis imperdiet laoreet. Fusce vel suscipit sem. Cras facilisis vitae diam eu mollis. Curabitur non pretium quam. Curabitur suscipit rutrum risus eu vulputate. Mauris ultrices bibendum est, at rhoncus nunc vulputate eu. Sed consectetur, velit vel scelerisque accumsan, eros metus feugiat quam, nec pellentesque ipsum nisi eu mi. Aenean gravida neque id velit sodales dignissim. Ut imperdiet mattis neque vel consequat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras eu nisi lorem. Quisque ut blandit lectus. Phasellus magna neque, dignissim eget urna in, feugiat viverra dolor. Sed luctus non dui sit.</P>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Entendi</button>
+                        <button type="button" class="btn btn-primary mb-0" data-dismiss="modal">Entendi</button>
                     </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                     <p>Vivamus volutpat nulla vel felis imperdiet laoreet. Fusce vel suscipit sem. Cras facilisis vitae diam eu mollis. Curabitur non pretium quam. Curabitur suscipit rutrum risus eu vulputate. Mauris ultrices bibendum est, at rhoncus nunc vulputate eu. Sed consectetur, velit vel scelerisque accumsan, eros metus feugiat quam, nec pellentesque ipsum nisi eu mi. Aenean gravida neque id velit sodales dignissim. Ut imperdiet mattis neque vel consequat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras eu nisi lorem. Quisque ut blandit lectus. Phasellus magna neque, dignissim eget urna in, feugiat viverra dolor. Sed luctus non dui sit.</P>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Entendi</button>
+                        <button type="button" class="btn btn-primary mb-0" data-dismiss="modal">Entendi</button>
                     </div>
                     </div>
                 </div>
