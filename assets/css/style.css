@@ -15,6 +15,10 @@ body {
   color: #faf8f3;
 }
 
+img.logo-header {
+  max-width: 190px;
+}
+
 .banner {
   position: relative;
   width: 100%;
@@ -42,27 +46,6 @@ body {
   max-width: 20rem;
   font-size: 1rem;
 }
-@media (min-width: 768px) {
-  .banner h1 {
-    font-size: 4rem;
-    line-height: 4rem;
-  }
-}
-@media (min-width: 992px) {
-  .banner {
-    height: 100vh;
-    padding: 0;
-  }
-  .banner h1 {
-    font-size: 4rem;
-    line-height: 6.5rem;
-    letter-spacing: 0.8rem;
-  }
-  .banner h2 {
-    max-width: 30rem;
-    font-size: 1.25rem;
-  }
-}
 
 .row {
   display: flex;
@@ -72,36 +55,6 @@ body {
 
 .card-columns {
   column-count: 2;
-}
-@media (min-width: 300px) and (max-width: 574.98px) {
-  .card-columns {
-    display: flex;
-    flex-direction: column;
-    }
-}
-@media (max-width: 575.98px) {
-  .card-columns {
-    display: flex;
-    flex-direction: column;
-    }
-}
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .card-columns {
-    display: flex;
-    flex-direction: column;
-    }
-}
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .card-columns {
-    display: flex;
-    flex-direction: column;
-    }
-}
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .card-columns {
-    display: flex;
-    flex-direction: column;
-    }
 }
 
 .btn {
@@ -178,6 +131,82 @@ footer {
   font-size: 1.2em;
 }
 
+img.logo-footer {
+  max-width: 250px;
+}
+
 .modal-content {
   background-color: #faf8f3;
+}
+
+
+
+/* MEDIA QUERRIES */
+
+@media only screen and (min-width: 420px) {
+  img.logo-header {
+    max-width: 270px;
+  }
+
+  img.logo-footer {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .banner h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .banner {
+    height: 100vh;
+    padding: 0;
+  }
+  .banner h1 {
+    font-size: 4rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+  }
+  .banner h2 {
+    max-width: 30rem;
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 574.98px) {
+  .card-columns {
+    display: flex;
+    flex-direction: column;
+    }
+}
+
+@media (max-width: 575.98px) {
+  .card-columns {
+    display: flex;
+    flex-direction: column;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .card-columns {
+    display: flex;
+    flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .card-columns {
+    display: flex;
+    flex-direction: column;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .card-columns {
+    display: flex;
+    flex-direction: column;
+    }
 }

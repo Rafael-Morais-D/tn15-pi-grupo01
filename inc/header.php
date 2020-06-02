@@ -1,11 +1,11 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.php"><img src="./assets/img/bakeandgo_logo_02_black.svg" alt="Logo Bake & Go" width="270px"></a>
+        <a class="navbar-brand" href="index.php"><img class="logo-header" src="./assets/img/bakeandgo_logo_02_black.png" alt="Logo Bake & Go"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav text-center ml-md-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="index.php">Home</a>
                 </li>
@@ -14,7 +14,7 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Produtos</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <div class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#">Pães e Bolos</a>
                             <a class="dropdown-item" href="#">Frios</a>
                             <a class="dropdown-item" href="#">Lanches e Salgados</a>
