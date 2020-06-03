@@ -8,11 +8,17 @@
 body {
   background-color: #faf8f3;
   font-family: 'GTAmericaMono-Regular', monospace;
+  margin-top: 59.17px;
 }
 
 ::selection {
   background-color: rgba(0, 0, 0, 0.6);
   color: #faf8f3;
+}
+
+nav.navbar {
+  background-color: #faf8f3!important;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 img.logo-header {
@@ -144,6 +150,10 @@ img.logo-footer {
 /* MEDIA QUERRIES */
 
 @media only screen and (min-width: 420px) {
+  body {
+    margin-top: 73.14px;
+  }
+  
   img.logo-header {
     max-width: 270px;
   }
