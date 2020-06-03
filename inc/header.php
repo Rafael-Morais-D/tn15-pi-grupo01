@@ -27,6 +27,9 @@
                 <li class="nav-item">
                     <a class="nav-link btn btn-primary mb-0 ml-1" href="#" data-toggle="modal" data-target="#btnLogin">Login</a>
                 </li>
+                <li>
+                <a class="nav-link btn btn-primary mb-0 ml-1" href="cesta-de-compras.php"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+                </li>
             </ul>
         </div>
         </nav>
