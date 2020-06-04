@@ -53,6 +53,10 @@ img.logo-header {
   font-size: 1rem;
 }
 
+.img-fluid {
+  height: 100vh;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -61,6 +65,14 @@ img.logo-header {
 
 .card-columns {
   column-count: 2;
+}
+
+article .btn {
+  border-radius: 20px;
+  background: #faf8f3;
+  border: 1px solid #000;
+  color: #000;
+  margin-bottom: 5px;
 }
 
 .btn {
@@ -75,11 +87,6 @@ img.logo-header {
   background: #fff;
   color: #000;
   border: 1px solid #000;
-}
-
-.img-fluid {
-  max-width: 100%;
-  height: auto;
 }
 
 @font-face {
@@ -145,7 +152,9 @@ img.logo-footer {
   background-color: #faf8f3;
 }
 
-
+.modal-footer a {
+  color: #8f793c;
+}
 
 /* MEDIA QUERRIES */
 

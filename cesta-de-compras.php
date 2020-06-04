@@ -113,17 +113,13 @@
 
                         </tbody>
                     </table>
-                    <div class="form-inline">
-                        <div class="form-group col-md-6">
-                            <label for="cupomDesconto" class="col-auto pl-0">Cupom de Desconto</label>
-                            <div class="col-md-7">
-                                <input type="text" class="form-control" name="cupomDesconto" id="cupomDesconto" placeholder="INSIRA SEU CUPOM">
+                        <div class="form-group d-inline-block">
+                            <label for="cupomDesconto">Cupom de Desconto</label>
+                            <div>
+                                <input type="text" class="form-control col-lg-12" name="cupomDesconto" id="cupomDesconto" placeholder="INSIRA SEU CUPOM">
                             </div>
                         </div>
-                        <div class="form-group col-md-2 offset-4">
-                            <button type="submit" class="btn btn-info" form="carrinhoForm">Finalizar Compra</button>
-                        </div>
-                    </div>
+                            <button type="submit" class="btn btn-info float-right col-lg-3 mt-3" form="carrinhoForm">Finalizar Compra</button>
                 </form>
             </div>
         </section>

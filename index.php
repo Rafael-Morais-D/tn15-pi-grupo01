@@ -13,7 +13,7 @@
     <section>
     <div class="row">
       <div class="col-lg-6">
-        <h2>Pão Italiano</h2>
+        <h2 class="sticky">Pão Italiano</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
         <a href="#" class="btn btn-primary">COMPRAR</a>
       </div>
@@ -48,21 +48,77 @@
                   <span class="float-right">R$12</span>
                   <h6 class="text-truncate">Pão Italiano</h6>
                   <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod inventore, voluptatibus fugiat eveniet atque optio? Facere sequi rerum error doloremque quas ea qui earum, tempora ex ipsa facilis quod itaque?</p>
+                  <label class="form" name="qtd">Qtd</label>
+                                    <select class="mb-3" name="qtd">
+                                        <option selected value=1>1</option>
+                                        <option value=2>2</option>
+                                        <option value=3>3</option>
+                                        <option value=4>4</option>
+                                        <option value=5>5</option>
+                                        <option value=6>6</option>
+                                        <option value=7>7</option>
+                                        <option value=8>8</option>
+                                        <option value=9>9</option>
+                                        <option value=10>10</option>
+                                    </select>
+                  <a href="./cesta-de-compras.php" class="btn btn-primary float-right">COMPRAR</a>
               </div>
               <div class="card card-body">
                   <span class="float-right">R$8</span>
                   <h6 class="text-truncate">Bagel</h6>
                   <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro a temporibus asperiores vitae alias, cumque eligendi deserunt, unde, quam saepe inventore distinctio mollitia sequi aliquam iusto sit facilis cupiditate!</p>
+                  <label class="form-inline-block" name="qtd">Qtd</label>
+                                    <select class="mb-3" name="qtd">
+                                        <option selected value=1>1</option>
+                                        <option value=2>2</option>
+                                        <option value=3>3</option>
+                                        <option value=4>4</option>
+                                        <option value=5>5</option>
+                                        <option value=6>6</option>
+                                        <option value=7>7</option>
+                                        <option value=8>8</option>
+                                        <option value=9>9</option>
+                                        <option value=10>10</option>
+                                    </select>
+                  <a href="./cesta-de-compras.php" class="btn btn-primary float-right">COMPRAR</a>
               </div>
               <div class="card card-body">
                   <span class="float-right">R$14</span>
                   <h6 class="text-truncate">Cheesecake</h6>
                   <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem facere nemo laboriosam architecto, magnam sunt veritatis neque autem quod libero illum unde eius expedita impedit sit perferendis. Ipsa, aliquam atque.</p>
+                  <label class="form-inline-block" name="qtd">Qtd</label>
+                                    <select class="mb-3" name="qtd">
+                                        <option selected value=1>1</option>
+                                        <option value=2>2</option>
+                                        <option value=3>3</option>
+                                        <option value=4>4</option>
+                                        <option value=5>5</option>
+                                        <option value=6>6</option>
+                                        <option value=7>7</option>
+                                        <option value=8>8</option>
+                                        <option value=9>9</option>
+                                        <option value=10>10</option>
+                                    </select>
+                  <a href="./cesta-de-compras.php" class="btn btn-primary float-right">COMPRAR</a>
               </div>
               <div class="card card-body">
                   <span class="float-right">R$10</span>
                   <h6 class="text-truncate">Croissant</h6>
                   <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores delectus, iusto earum nesciunt similique nulla ullam hic explicabo! Explicabo ullam rem suscipit corporis, molestias non totam. Dolorum laboriosam debitis odit.</p>
+                  <label class="form-inline-block" name="qtd">Qtd</label>
+                                    <select class="mb-3" name="qtd">
+                                        <option selected value=1>1</option>
+                                        <option value=2>2</option>
+                                        <option value=3>3</option>
+                                        <option value=4>4</option>
+                                        <option value=5>5</option>
+                                        <option value=6>6</option>
+                                        <option value=7>7</option>
+                                        <option value=8>8</option>
+                                        <option value=9>9</option>
+                                        <option value=10>10</option>
+                                    </select>
+                  <a href="./cesta-de-compras.php" class="btn btn-primary float-right">COMPRAR</a>
               </div>
           </div>
           </div>
