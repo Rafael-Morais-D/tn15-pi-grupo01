@@ -1,5 +1,5 @@
 </section>
-<footer class="page-footer container-fluid mt-5 mb-0 mx-0 pt-2 px-0">
+<footer class="page-footer container-fluid mt-5 mb-0 mx-0 pt-2 px-0 fixed-bottom">
     <div class="mx-0 p-2 pb-5 p-md-5">
         <div class="d-flex flex-row flex-wrap justify-content-center mt-3">
             <div class="d-block col-12">
@@ -39,9 +39,9 @@
             </div>
             <div class="col-12 d-flex flex-row flex-wrap justify-content-center justify-content-md-between">
                 <!-- INFORMAÇÕES LEGAIS -->
-                <div class="d-inline text-center mr-sm-2 text-white">
+                <div class="d-inline text-center mr-sm-2 text-white"><small>
                     &copy; 2020 Bake & Go | CNPJ 01.012.012/0001-99
-                </div>
+                </div></small>
                 <div class="d-inline text-center ml-sm-2 text-white footer-link">
                     <a href="#" title="Políticas de Privacidade" data-toggle="modal" data-target="#politicasPriv">Políticas de Privacidade</a> | <a href="#" title="Termos de uso" data-toggle="modal" data-target="#termosDeUso">Termos de uso</a>
                 </div>

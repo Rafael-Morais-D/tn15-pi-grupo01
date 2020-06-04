@@ -53,19 +53,6 @@ img.logo-header {
   font-size: 1rem;
 }
 
-section h3 {
-  font-size: 1.3em;
-}
-
-article h3 {
-  font-size: 1.3em;
-}
-
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
-
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -84,10 +71,13 @@ article .btn {
   margin-bottom: 5px;
 }
 
-article .mb-3 {
-  font-size: 0.9em;
+section h3 {
+  font-size: 1.2em;
+} 
 
-}
+article h3 {
+  font-size: 1.2em;
+} 
 
 .btn {
   border-radius: 20px;
@@ -212,7 +202,7 @@ img.logo-footer {
 @media (min-width: 300px) and (max-width: 574.98px) {
   .card-columns {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     }
 }
 

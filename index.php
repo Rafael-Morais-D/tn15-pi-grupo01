@@ -12,7 +12,7 @@
   <!-- Section com produtos-->
     <section>
     <div class="col-lg-10 mx-auto col-12 text-center mb-3">
-              <h3 class="mt-5 mb-4 text-dark">Conheça nossos produtos</h3>
+              <h3 class="mt-5 mb-4 text-dark"><i class="fal fa-wheat mt-4 mr-3"></i>Conheça nossos produtos<i class="fal fa-wheat ml-3"></i>
               <hr class="accent my-5">
           </div>
     <div class="row">
@@ -44,7 +44,7 @@
     <div class="container">
       <div class="row-menu">
           <div class="col-lg-10 mx-auto col-12 text-center mb-3">
-              <h3 class="mb-4 text-dark">Menu</h3>
+          <h3 class="mt-5 mb-4 text-dark"><i class="fal fa-wheat mt-4 mr-3"></i>Menu<i class="fal fa-wheat ml-3"></i>
               <hr class="accent my-5">
           </div>
           <div class="card-columns">
