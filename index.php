@@ -11,11 +11,15 @@
 </main>
   <!-- Section com produtos-->
     <section>
+    <div class="col-lg-10 mx-auto col-12 text-center mb-3">
+              <h3 class="mt-5 mb-4 text-dark">Conheça nossos produtos</h3>
+              <hr class="accent my-5">
+          </div>
     <div class="row">
-      <div class="col-lg-6">
-        <h2 class="sticky">Pão Italiano</h2>
+      <div class="col-lg-6 w-100 my-auto text-center text-lg-right">
+        <h2>Pão Italiano</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
-        <a href="#" class="btn btn-primary">COMPRAR</a>
+        <a href="./cesta-de-compras.php" class="btn btn-primary">COMPRAR</a>
       </div>
       <div class="col-lg-6">
         <img class="img-fluid" src="./assets/img/03_bakeandgo.jpg" alt="">
@@ -24,10 +28,10 @@
   </section>
   <section>
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-6 w-100 my-auto text-center text-lg-left">
         <h2>Bolo de Chocolate com cobertura de Chocolate</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
-        <a href="#" class="btn btn-primary">COMPRAR</a>
+        <a href="./cesta-de-compras.php" class="btn btn-primary">COMPRAR</a>
       </div>
       <div class="col-lg-6 order-lg-first">
         <img class="img-fluid" src="./assets/img/05_bakeandgo.jpg" alt="">
@@ -40,7 +44,7 @@
     <div class="container">
       <div class="row-menu">
           <div class="col-lg-10 mx-auto col-12 text-center mb-3">
-              <h2 class="mb-4 text-dark">Menu</h2>
+              <h3 class="mb-4 text-dark">Menu</h3>
               <hr class="accent my-5">
           </div>
           <div class="card-columns">
@@ -48,8 +52,8 @@
                   <span class="float-right">R$12</span>
                   <h6 class="text-truncate">Pão Italiano</h6>
                   <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod inventore, voluptatibus fugiat eveniet atque optio? Facere sequi rerum error doloremque quas ea qui earum, tempora ex ipsa facilis quod itaque?</p>
-                  <label class="form" name="qtd">Qtd</label>
-                                    <select class="mb-3" name="qtd">
+                  <label class="form-qtd" name="qtd">Qtd</label>
+                                    <select class="qtd mb-3" name="qtd">
                                         <option selected value=1>1</option>
                                         <option value=2>2</option>
                                         <option value=3>3</option>
