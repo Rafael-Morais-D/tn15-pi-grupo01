@@ -145,13 +145,27 @@ img.logo-footer {
   background-color: #faf8f3;
 }
 
+nav.nav-header {
+  top: 59.17px!important;
+  z-index: 1000;
+  max-width: 60vw!important;
+  border-radius: 0 0 20px 20px;
+  background-color: rgb(190, 140, 80)!important;
+}
 
+nav.nav-header a {
+  color: #faf8f3!important;
+}
 
 /* MEDIA QUERRIES */
 
 @media only screen and (min-width: 420px) {
   body {
     margin-top: 73.14px;
+  }
+
+  nav.nav-header {
+    top: 73.14px!important;
   }
   
   img.logo-header {

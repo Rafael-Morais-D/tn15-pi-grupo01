@@ -1,5 +1,6 @@
 <?php require_once("./inc/head.php"); ?>
 <?php require_once("./inc/header.php"); ?>
+<?php require_once("./inc/header-adm.php"); ?>
 
 <main class="container py-5 mt-5">
     <h2>Usuários</h2>
