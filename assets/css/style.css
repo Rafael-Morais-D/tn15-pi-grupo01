@@ -127,16 +127,16 @@ article h3 {
 
 .page-footer {
   position: relative;
-  width: 100vw;
   height: auto;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 90%, #000000 100%), url('../img/02_bakeandgo_footer.jpg')!important;
-  /* background-position: center; */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position-x: center;
   color: #fff;
   font-size: 0.7em;
+  /* background-position: center; */
+  /* width: 100vw; */
 }
 
 .page-footer a {
