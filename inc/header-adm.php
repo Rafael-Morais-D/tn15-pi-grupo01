@@ -23,7 +23,7 @@
             </ul>
         </div>
         <!-- Modal - Sair -->
-        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        <div class="modal fade" id="modalHeaderAdm" tabindex="-1" role="dialog" aria-labelledby="modalHeaderAdm"
             aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
