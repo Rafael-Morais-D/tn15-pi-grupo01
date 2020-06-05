@@ -90,7 +90,7 @@ section h3 {
 
 article h3 {
   font-size: 1.2em;
-} 
+}
 
 .btn {
   border-radius: 20px;
@@ -104,6 +104,13 @@ article h3 {
   background: #fff;
   color: #000;
   border: 1px solid #000;
+}
+
+.btn-histocio a {
+  color: #8f793c;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
 }
 
 @font-face {
@@ -137,7 +144,7 @@ article h3 {
   color: #fff;
 }
 
-.fb-ic, .tw-ic, .ins-ic, .pin.ic:hover a {
+.fb-ic, .tw-ic, .ins-ic, .wa-ic:hover a {
   text-decoration: none !important;
 }
 

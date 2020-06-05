@@ -13,7 +13,7 @@
                     <a class="nav-link" href="#">Quem somos</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Produtos</a>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
                         <div class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#">Pães e Bolos</a>
                             <a class="dropdown-item" href="#">Frios</a>
@@ -39,9 +39,6 @@
                     <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title text-dark" id="staticBackdropLabel">Login</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                        </button>
                     </div>
                     <div class="modal-body text-dark">
                         <div class="input-group mb-3">
