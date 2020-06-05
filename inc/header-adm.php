@@ -18,13 +18,13 @@
                     <a class="nav-link" href="admMensagem.php">Mensagens</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn btn-adm mb-0 ml-1" href="#" data-toggle="modal" data-target="#modalHeaderAdm">Sair</a>
+                    <a class="nav-link btn btn-adm mb-0 ml-1" title="Header Administrativo" data-toggle="modal" data-target="#btnSair">Sair</a>
                 </li>
             </ul>
         </div>
+        </nav>
         <!-- Modal - Sair -->
-        <div class="modal fade" id="modalHeaderAdm" tabindex="-1" role="dialog" aria-labelledby="modalHeaderAdm"
-            aria-hidden="true">
+        <div class="modal fade" id="btnSair" tabindex="-1" role="dialog" aria-labelledby="btnSair" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -45,4 +45,3 @@
                 </div>
             </div>
         </div>
-        </nav>

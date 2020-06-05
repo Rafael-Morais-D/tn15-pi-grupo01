@@ -82,3 +82,5 @@
             </div>
         </div>
 </main>
+
+<?php require_once("./inc/footer-adm.php"); ?>
