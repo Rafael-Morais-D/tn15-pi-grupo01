@@ -18,7 +18,7 @@
                     <a class="nav-link" href="admMensagem.php">Mensagens</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn btn-adm mb-0 ml-1" href="#" data-toggle="modalHeaderAdm" data-target="#btnSair">Sair</a>
+                    <a class="nav-link btn btn-adm mb-0 ml-1" href="#" data-toggle="modal" data-target="#modalHeaderAdm">Sair</a>
                 </li>
             </ul>
         </div>
