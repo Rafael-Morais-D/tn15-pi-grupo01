@@ -47,7 +47,7 @@
     <meta name="copyright" content="Bake & Go">
     <meta name="rating" content="general">
     <meta name="web_author" content="Bake & Go">
-    <meta property="og:site_name" content="Alt Studio">
+    <meta property="og:site_name" content="Bake & Go">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Bake & Go">
     <meta property="og:description" content="Bake & Go, a sua padaria online.">

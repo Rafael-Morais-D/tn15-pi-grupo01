@@ -25,10 +25,10 @@
                     <a class="nav-link" href="#">Contato</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn btn-primary mb-0 ml-1" href="#" data-toggle="modal" data-target="#btnLogin">Login</a>
+                    <a class="nav-link btn btn-primary col-12 text mb-1 ml-1" href="#" data-toggle="modal" data-target="#btnLogin">Login</a>
                 </li>
                 <li>
-                <a class="nav-link btn btn-primary mb-0 ml-1" href="cesta-de-compras.php"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+                <a class="nav-link btn btn-primary mb-1 ml-3 full-width" href="cesta-de-compras.php"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
                 </li>
             </ul>
         </div>
@@ -58,7 +58,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <p class="pt-3">Novo por aqui? <a href="cadastro.php">Cadastre-se agora!</a></p>
+                        <p class="pt-3">Novo por aqui? <a href="cadastro.php" class="d-inline-block">Cadastre-se agora!</a></p>
                         <button type="button" class="btn btn-primary mb-0" data-dismiss="modal">Fechar</button>
                         <button type="submit" class="btn btn-primary mb-0" data-dismiss="modal">Login</button>
                     </div>

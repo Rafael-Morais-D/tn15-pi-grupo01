@@ -1,5 +1,5 @@
 </section>
-<footer class="page-footer container-fluid mt-5 mb-0 mx-0 pt-2 px-0">
+<footer class="page-footer container-fluid mt-5 mb-0 mx-0 pt-2 px-0 fixed-bottom">
     <div class="mx-0 p-2 pb-5 p-md-5">
         <div class="d-flex flex-row flex-wrap justify-content-center mt-3">
             <div class="d-block col-12">

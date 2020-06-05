@@ -21,6 +21,19 @@ nav.navbar {
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+.dropdown-toggle::after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: .255em;
+  vertical-align: 0.1em;
+  content: "";
+  border-top: .3em solid;
+  border-right: .3em solid transparent;
+  border-bottom: 0;
+  border-left: .3em solid transparent;
+}
+
 img.logo-header {
   max-width: 190px;
 }
@@ -63,6 +76,22 @@ img.logo-header {
   column-count: 2;
 }
 
+article .btn {
+  border-radius: 20px;
+  background: #faf8f3;
+  border: 1px solid #000;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+section h3 {
+  font-size: 1.2em;
+} 
+
+article h3 {
+  font-size: 1.2em;
+} 
+
 .btn {
   border-radius: 20px;
   background: #faf8f3;
@@ -75,11 +104,6 @@ img.logo-header {
   background: #fff;
   color: #000;
   border: 1px solid #000;
-}
-
-.img-fluid {
-  max-width: 100%;
-  height: auto;
 }
 
 @font-face {
@@ -96,14 +120,14 @@ img.logo-header {
 
 .page-footer {
   position: relative;
-  width: auto;
+  width: 100vw;
   height: auto;
-  min-height: 20rem;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 90%, #000000 100%), url("../assets/img/02_bakeandgo_footer.jpg");
-  background-position: center;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 90%, #000000 100%), url('../img/02_bakeandgo_footer.jpg')!important;
+  /* background-position: center; */
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
+  background-position-x: center;
   color: #fff;
   font-size: 0.7em;
 }
@@ -111,14 +135,6 @@ img.logo-header {
 .page-footer a {
   font-size: 1em;
   color: #fff;
-}
-
-footer {
-  background-color: #faf8f3;
-  background-image: url('../img/02_bakeandgo_footer.jpg')!important;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
 }
 
 .fb-ic, .tw-ic, .ins-ic, .pin.ic:hover a {
@@ -145,7 +161,11 @@ img.logo-footer {
   background-color: #faf8f3;
 }
 
-nav.nav-header {
+.modal-footer a {
+  color: #8f793c;
+}
+
+nav.nav-adm {
   top: 59.17px!important;
   z-index: 1000;
   max-width: 60vw!important;
@@ -153,7 +173,7 @@ nav.nav-header {
   background-color: rgb(190, 140, 80)!important;
 }
 
-nav.nav-header a {
+nav.nav-adm a {
   color: #faf8f3!important;
 }
 
@@ -164,7 +184,7 @@ nav.nav-header a {
     margin-top: 73.14px;
   }
 
-  nav.nav-header {
+  nav.nav-adm {
     top: 73.14px!important;
   }
   
