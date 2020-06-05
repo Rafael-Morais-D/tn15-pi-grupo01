@@ -1,24 +1,48 @@
-<nav class="navbar navbar-expand-lg navbar-light fixed-top nav-adm m-auto">
+        <div class="h-adm-space"></div>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top nav-adm m-auto">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#admNav" aria-controls="admNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="admNav">
             <ul class="navbar-nav text-center m-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="admUsuarios.php">Usuários</a>
+                    <a class="nav-link" href="admUsuario.php">Usuários</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Categorias</a>
+                    <a class="nav-link" href="admCategoria.php">Categorias</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="admProdutos.php">Produtos</a>
+                    <a class="nav-link" href="admProduto.php">Produtos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Mensagens</a>
+                    <a class="nav-link" href="admMensagem.php">Mensagens</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn btn-primary mb-0 ml-1" href="#" data-toggle="modal" data-target="#btnSair">Sair</a>
+                    <a class="nav-link btn btn-adm mb-0 ml-1" href="#" data-toggle="modalHeaderAdm" data-target="#btnSair">Sair</a>
                 </li>
             </ul>
+        </div>
+        <!-- Modal - Sair -->
+        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sair</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Deseja realmente sair do painel de controle?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                        <a href="#">
+                            <button type="button" class="btn btn-danger">Sair</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
         </nav>
