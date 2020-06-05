@@ -1,3 +1,4 @@
+<?php $tituloDaPagina = "Listagem de Usuários" ?>
 <?php require_once("./inc/head.php"); ?>
 <?php require_once("./inc/header.php"); ?>
 

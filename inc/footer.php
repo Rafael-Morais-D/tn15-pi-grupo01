@@ -14,6 +14,9 @@
                     <a href="#" class="ins-ic">
                         <i class="fab fa-instagram fa-2x text-white mr-3 ml-3"> </i>
                     </a>
+                    <a href="#" class="wa-ic">
+                        <i class="fab fa-whatsapp fa-2x text-white mr-3 ml-3"> </i>
+                    </a>
                 </div>
             </div>
             <div class="col-12 mb-4 text-center footer-link">
