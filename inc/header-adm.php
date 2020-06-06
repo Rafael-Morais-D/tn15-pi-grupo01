@@ -18,6 +18,9 @@
                     <a class="nav-link" href="admMensagem.php">Mensagens</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="historicoPedidos.php">Histórico de Pedidos</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link btn btn-adm mb-0 ml-1" title="Header Administrativo" data-toggle="modal" data-target="#btnSair">Sair</a>
                 </li>
             </ul>
