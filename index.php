@@ -132,4 +132,19 @@
       </div>
   </aside>
 </article>
+<hr class="accent my-5">
+<article>
+    <div class="row">
+      <div class="col-lg-6 w-100 my-auto mb-4 text-center text-lg-left">
+        <h3>Das nossas mão para sua mesa!</h3>
+        <p>Peça também pelo WhatsApp<a href="#" class="wa-ic"><i class="fab fa-whatsapp fa-lg text-dark mr-3 ml-3"></i></a></p>
+        <p class="mt-4 mb-0">Atendimento e delivery</p>
+        <p class="mb-0">Segunda—Segunda</p>
+        <p>10h às 18h</p>
+      </div>
+      <div class="col-lg-6 order-lg-first mb-5">
+        <img class="img-fluid" src="./assets/img/07_bakeandgo.jpg" alt="">
+      </div>
+    </div>
+  </article>
 <?php require_once("./inc/footer.php"); ?>

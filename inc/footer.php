@@ -29,7 +29,7 @@
                         <a href="#">QUEM SOMOS</a>
                     </li>
                     <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3">
-                        <a href="#">PRODUTOS</a>
+                        <a href="#">MENU</a>
                     </li>
                     <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3">
                         <a href="#">CONTATO</a>

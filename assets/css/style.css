@@ -139,6 +139,10 @@ article h3 {
   /* width: 100vw; */
 }
 
+.row-footer h2 {
+  font-size: 1em;
+}
+
 .page-footer a {
   font-size: 1em;
   color: #fff;
