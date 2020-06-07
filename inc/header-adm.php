@@ -37,9 +37,9 @@
                         <p>Deseja realmente sair do painel de controle?</p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-secondary mb-0" data-dismiss="modal">Cancelar</button>
                         <a href="#">
-                            <button type="button" class="btn btn-danger">Sair</button>
+                            <button type="button" class="btn btn-danger mb-0">Sair</button>
                         </a>
                     </div>
                 </div>

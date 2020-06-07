@@ -55,7 +55,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix">
-                                                        <button data-dismiss="modal" class="mx-auto my-auto btn btn-info btn-md  col-md-3">Atualizar</button>
+                                                        <button data-dismiss="modal" class="mx-auto my-auto btn btn-info btn-md col-md-3 mb-0">Atualizar</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -100,7 +100,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix">
-                                                        <button data-dismiss="modal" class="mx-auto my-auto btn btn-info btn-md  col-md-3">Atualizar</button>
+                                                        <button data-dismiss="modal" class="mx-auto my-auto btn btn-info btn-md col-md-3 mb-0">Atualizar</button>
                                                     </div>
                                                 </div>
                                             </div>
