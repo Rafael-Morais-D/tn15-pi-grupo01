@@ -19,6 +19,7 @@ body {
 nav.navbar {
   background-color: #faf8f3!important;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1100;
 }
 
 .dropdown-toggle::after {
@@ -98,6 +99,7 @@ article h3 {
   border: 1px solid #000;
   color: #000;
   margin-bottom: 40px;
+  min-width: 82px;
 }
 
 .btn:hover {
@@ -176,9 +178,23 @@ img.logo-footer {
   color: #8f793c;
 }
 
+.modal-info-leg {
+  font-size: 0.7em;
+  border-top: 0;
+  text-align: justify;
+}
+
+.modal {
+  z-index: 1200;
+}
+
+.modal-backdrop {
+  z-index: 1150;
+}
+
 nav.nav-adm {
   top: 59.17px!important;
-  z-index: 1000;
+  z-index: 1050;
   max-width: 60vw!important;
   border-radius: 0 0 20px 20px;
   background-color: #8f793c!important;

@@ -54,8 +54,8 @@
                                                             <input type="number" class="form-control" id="quantidadeProduto01" step="1" min="1" value="1" form="carrinhoForm" required>
                                                         </div>
                                                     </div>
-                                                    <div class="form-group clearfix">
-                                                        <button data-dismiss="modal" class="mx-auto my-auto btn btn-info btn-md  col-md-3">Atualizar</button>
+                                                    <div class="form-group clearfix mb-0">
+                                                        <button data-dismiss="modal" class="mx-auto my-auto btn btn-info btn-md col-md-3 mb-0">Atualizar</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -99,8 +99,8 @@
                                                             <input type="number" class="form-control" id="quantidadeProduto01" step="1" min="1" value="1" form="carrinhoForm" required>
                                                         </div>
                                                     </div>
-                                                    <div class="form-group clearfix">
-                                                        <button data-dismiss="modal" class="mx-auto my-auto btn btn-info btn-md  col-md-3">Atualizar</button>
+                                                    <div class="form-group clearfix mb-0">
+                                                        <button data-dismiss="modal" class="mx-auto my-auto btn btn-info btn-md col-md-3 mb-0">Atualizar</button>
                                                     </div>
                                                 </div>
                                             </div>

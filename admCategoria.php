@@ -74,9 +74,9 @@
                         <p>Deseja realmente excluir esta categoria?</p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-secondary mb-0" data-dismiss="modal">Cancelar</button>
                         <a href="#">
-                            <button type="button" class="btn btn-danger">Excluir</button>
+                            <button type="button" class="btn btn-danger mb-0">Excluir</button>
                         </a>
                     </div>
                 </div>
@@ -107,8 +107,8 @@
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary">Adicionar</button>
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary mb-0">Adicionar</button>
+                            <button type="button" class="btn btn-secondary mb-0" data-dismiss="modal">Cancelar</button>
                         </div>
                 </div>
             </div>
