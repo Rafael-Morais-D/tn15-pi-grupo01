@@ -13,7 +13,7 @@
 <!-- Section com produtos-->
 <section class="catProdutos">
   <div class="col-lg-10 mx-auto col-12 text-center mb-3">
-    <h3 class="mt-5 mb-4 text-dark"><i class="fal fa-wheat mt-4 mr-3"></i>Conheça nossos produtos<i class="fal fa-wheat ml-3"></i></h3>
+    <h3 class="mt-5 mb-4 text-uppercase"><i class="fal fa-wheat fa-lg mt-4 mr-3"></i>Conheça nossos produtos<i class="fal fa-wheat fa-lg ml-3"></i></h3>
     <hr class="accent my-5">
     </div>
     <div class="row">
@@ -42,12 +42,12 @@
     <div class="container">
       <div class="row-menu">
         <div class="col-lg-10 mx-auto col-12 text-center mb-3">
-          <h3 class="mt-5 mb-4 text-dark"><i class="fal fa-wheat mt-4 mr-3"></i>Menu<i class="fal fa-wheat ml-3"></i></h3>
+          <h3 class="mt-5 mb-4 text-uppercase"><i class="fal fa-wheat fa-lg mt-4 mr-3"></i>Menu<i class="fal fa-wheat fa-lg ml-3"></i></h3>
           <hr class="accent my-5">
           </div>
           <div class="card-columns">
             <div class="card card-body">
-              <span class="float-right">R$12</span>
+            <span class="float-right">R$12</span>
               <h3 class="text-truncate">Pão Italiano</h3>
               <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod inventore, voluptatibus fugiat eveniet atque optio? Facere sequi rerum error doloremque quas ea qui earum, tempora ex ipsa facilis quod itaque?</p>
               <label class="form-qtd" name="qtd">Qtd</label>
@@ -63,7 +63,7 @@
                 <option value=9>9</option>
                 <option value=10>10</option>
                 </select>
-                <a href="./cesta-de-compras.php" class="btn btn-primary float-right">COMPRAR</a>
+                <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">COMPRAR</a>
               </div>
               <div class="card card-body">
                 <span class="float-right">R$8</span>
@@ -82,7 +82,7 @@
                   <option value=9>9</option>
                   <option value=10>10</option>
                   </select>
-                  <a href="./cesta-de-compras.php" class="btn btn-primary float-right">COMPRAR</a>
+                  <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">COMPRAR</a>
                 </div>
                 <div class="card card-body">
                   <span class="float-right">R$14</span>
@@ -101,7 +101,7 @@
                     <option value=9>9</option>
                     <option value=10>10</option>
                     </select>
-                    <a href="./cesta-de-compras.php" class="btn btn-primary float-right">COMPRAR</a>
+                    <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">COMPRAR</a>
                     </div>
                     <div class="card card-body">
                       <span class="float-right">R$10</span>
@@ -120,7 +120,7 @@
                         <option value=9>9</option>
                         <option value=10>10</option>
                         </select>
-                        <a href="./cesta-de-compras.php" class="btn btn-primary float-right">COMPRAR</a>
+                        <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">COMPRAR</a>
                       </div>
                     </div>
                   </div>
@@ -134,7 +134,7 @@
                 <div class="row">
                   <div class="col-lg-6 w-100 my-auto mb-4 text-center text-lg-left">
                     <h3>Das nossas mão para sua mesa!</h3>          
-                    <p>Peça também pelo <a href="#" style="color: #8f793c!important;" class="wa-ic">WhatsApp<i style="color: #8f793c!important;" class="fab fa-whatsapp fa-lg text-dark ml-2"></a></i></p>
+                    <p>Peça também pelo <a href="#">WhatsApp<i class="ic-wa fab fa-whatsapp fa-lg text-dark ml-2"></a></i></p>
                     <p class="mt-4 mb-0">Atendimento e delivery</p>
                     <p class="mb-0">Segunda—Segunda</p>
                     <p class="mb-5">10h às 18h</p>                    

@@ -100,8 +100,32 @@ section.btn {
   border: 1px solid #000;
 }
 
-section.menuProdutos h3 {
-  font-size: 1em;
+.catProdutos h3 {
+  font-family: 'GTAmerica-ExtendedMedium', monospace;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+}
+
+.menuProdutos h3 {
+  font-family: 'GTAmerica-ExtendedMedium', monospace;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+}
+
+.menuProdutos span, label, select {
+  font-size: 0.85em;
+}
+
+.catAtendimento a {
+  color: #8f793c!important;
+}
+
+.ic-wa {
+  color: #8f793c!important;
+}
+
+.ic-basket:hover {
+  color: #8f793c;
 }
 
 @font-face {
@@ -112,6 +136,18 @@ section.menuProdutos h3 {
        url('GTAmericaMono-Regular.ttf') format('truetype'),
        url('GTAmericaMono-Regular.woff') format('woff'),
        url('GTAmericaMono-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GTAmerica-ExtendedMedium';
+  src: url('GTAmerica-ExtendedMedium.eot');
+  src: url('GTAmerica-ExtendedMedium.eot?#iefix') format('embedded-opentype'),
+       url('GTAmerica-ExtendedMedium.svg#GTAmerica-ExtendedMedium') format('svg'),
+       url('GTAmerica-ExtendedMedium.ttf') format('truetype'),
+       url('GTAmerica-ExtendedMedium.woff') format('woff'),
+       url('GTAmerica-ExtendedMedium.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
