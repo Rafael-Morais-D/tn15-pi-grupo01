@@ -54,12 +54,12 @@ img.logo-header {
 }
 
 .banner h1 {
-  font-size: 2rem;
+  font-size: 1.7rem;
   line-height: 2.5rem;
   background: #fff;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
 }
 
 .banner h2 {
@@ -77,20 +77,12 @@ img.logo-header {
   column-count: 2;
 }
 
-article .btn {
+section.btn {
   border-radius: 20px;
   background: #faf8f3;
   border: 1px solid #000;
   color: #000;
   margin-bottom: 5px;
-}
-
-section h3 {
-  font-size: 1.2em;
-} 
-
-article h3 {
-  font-size: 1.2em;
 }
 
 .btn {
@@ -106,6 +98,10 @@ article h3 {
   background: #fff;
   color: #000;
   border: 1px solid #000;
+}
+
+section.menuProdutos h3 {
+  font-size: 1em;
 }
 
 @font-face {
@@ -145,10 +141,6 @@ article h3 {
 
 .fb-ic, .tw-ic, .ins-ic, .wa-ic:hover a {
   text-decoration: none !important;
-}
-
-.form-cadastro h3 {
-  font-size: 1em;
 }
 
 .checkbox a {
