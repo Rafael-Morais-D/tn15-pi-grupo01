@@ -69,25 +69,13 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="msapplication-TileColor" content="#faf8f3">
     <meta name="theme-color" content="#ffffff">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
-    <!--[if IE]><link rel="shortcut icon" href="#"><![endif]-->
-    <meta name="msapplication-TileImage" content="#">
-    <link rel="icon" type="image/png" sizes="512x512" href="#">
-    <link rel="icon" type="image/png" sizes="228x228" href="#">
-    <link rel="shortcut icon" sizes="196x196" href="#">
-    <link rel="icon" sizes="192x192" href="#">
-    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="#">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="#">
-    <link rel="icon" type="image/png" sizes="128x128" href="#">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="#">
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="#">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="#">
-    <link rel="icon" type="image/png" sizes="96x96" href="#">
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="#">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="#">
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="#">
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="#">
-    <link rel="icon" type="image/png" sizes="32x32" href="#">
-    <link rel="icon" type="image/png" sizes="16x16" href="#">
+    <link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#000000">
+    <!--[if IE]><link rel="shortcut icon" href="./assets/favicon/favicon.ico"><![endif]-->
+    <meta name="msapplication-TileImage" content="./assets/favicon/bakeandgo-150x150.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="./assets/favicon/bakeandgo-512x512.png">
+    <link rel="icon" sizes="192x192" href="./assets/favicon/bakeandgo-192x192.png">
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="./assets/favicon/bakeandgo-180x180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/bakeandgo-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/bakeandgo-16x16.png">
 </head>
 </head>
