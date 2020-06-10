@@ -22,7 +22,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
         <a href="./cesta-de-compras.php" class="btn btn-primary">COMPRAR</a>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-5 col-md mx-auto">
         <img class="img-fluid" src="./assets/img/03_bakeandgo.jpg" alt="">
       </div>
     </div>
@@ -32,7 +32,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
         <a href="./cesta-de-compras.php" class="btn btn-primary">COMPRAR</a>
       </div>
-      <div class="col-lg-6 order-lg-first">
+      <div class="col-lg-5 col-md mx-auto order-lg-first">
         <img class="img-fluid" src="./assets/img/05_bakeandgo.jpg" alt="">
       </div>
     </div>
