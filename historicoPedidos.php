@@ -45,4 +45,4 @@
                 </table>
                 </main>
 
-<?php require_once("./inc/footer.php"); ?>
+<?php require_once("./inc/footer-adm.php"); ?>
