@@ -12,7 +12,7 @@ body {
 }
 
 ::selection {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgb(143, 121, 60);
   color: #faf8f3;
 }
 
@@ -54,12 +54,12 @@ img.logo-header {
 }
 
 .banner h1 {
-  font-size: 2rem;
+  font-size: 1.7rem;
   line-height: 2.5rem;
   background: #fff;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
 }
 
 .banner h2 {
@@ -77,20 +77,12 @@ img.logo-header {
   column-count: 2;
 }
 
-article .btn {
+section.btn {
   border-radius: 20px;
   background: #faf8f3;
   border: 1px solid #000;
   color: #000;
   margin-bottom: 5px;
-}
-
-section h3 {
-  font-size: 1.2em;
-} 
-
-article h3 {
-  font-size: 1.2em;
 }
 
 .btn {
@@ -108,6 +100,34 @@ article h3 {
   border: 1px solid #000;
 }
 
+.catProdutos h3 {
+  font-family: 'GTAmerica-ExtendedMedium', monospace;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+}
+
+.menuProdutos h3 {
+  font-family: 'GTAmerica-ExtendedMedium', monospace;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+}
+
+.menuProdutos span, label, select {
+  font-size: 0.85em;
+}
+
+.catAtendimento a {
+  color: #8f793c!important;
+}
+
+.ic-wa {
+  color: #8f793c!important;
+}
+
+.ic-basket:hover {
+  color: #8f793c;
+}
+
 @font-face {
   font-family: 'GTAmericaMono-Regular';
   src: url('GTAmericaMono-Regular.eot');
@@ -116,6 +136,18 @@ article h3 {
        url('GTAmericaMono-Regular.ttf') format('truetype'),
        url('GTAmericaMono-Regular.woff') format('woff'),
        url('GTAmericaMono-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GTAmerica-ExtendedMedium';
+  src: url('GTAmerica-ExtendedMedium.eot');
+  src: url('GTAmerica-ExtendedMedium.eot?#iefix') format('embedded-opentype'),
+       url('GTAmerica-ExtendedMedium.svg#GTAmerica-ExtendedMedium') format('svg'),
+       url('GTAmerica-ExtendedMedium.ttf') format('truetype'),
+       url('GTAmerica-ExtendedMedium.woff') format('woff'),
+       url('GTAmerica-ExtendedMedium.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -145,10 +177,6 @@ article h3 {
 
 .fb-ic, .tw-ic, .ins-ic, .wa-ic:hover a {
   text-decoration: none !important;
-}
-
-.form-cadastro h3 {
-  font-size: 1em;
 }
 
 .checkbox a {
