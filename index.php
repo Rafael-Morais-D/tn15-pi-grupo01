@@ -4,8 +4,8 @@
 <main class="banner">
   <div class="container d-flex h-100 align-items-center">
     <div class="mx-auto text-center">
-      <h1 class="mx-auto my-0">Título</h1>
-      <h2 class="mx-auto mt-2 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quaerat quo maiores libero veritatis, laboriosam dolor aspernatur maxime itaque, nulla ullam minus dignissimos nobis eligendi saepe. Quae amet et similique.</h2>
+      <h1 class="mx-auto my-0">Baked & fresh</h1>
+      <h2 class="mx-auto mt-2 mb-5">Do pão de fermentação natural ao pão francês, não importa a hora, nós iremos até você.</h2>
       </div>
     </div>
 </main>

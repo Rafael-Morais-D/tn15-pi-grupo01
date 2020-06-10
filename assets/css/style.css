@@ -54,8 +54,8 @@ img.logo-header {
 }
 
 .banner h1 {
-  font-size: 1.7rem;
-  line-height: 2.5rem;
+  font-size: 3.2rem;
+  line-height: 3.2rem;
   background: #fff;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -282,7 +282,6 @@ nav.nav-adm a {
   .banner h1 {
     font-size: 4rem;
     line-height: 6.5rem;
-    letter-spacing: 0.8rem;
   }
   .banner h2 {
     max-width: 30rem;
