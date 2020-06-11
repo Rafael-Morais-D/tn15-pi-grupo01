@@ -5,10 +5,10 @@
             <div class="d-block col-12">
                 <!-- REDES SOCIAIS -->
                 <div class="col-12 mb-5 text-center">
-                    <a href="#" class="fb-ic">
+                    <a href="#" class="fb-ic ">
                         <i class="fab fa-facebook-f fa-2x text-white mr-3 ml-3"> </i>
                     </a>
-                    <a href="#" class="tw-ic">
+                    <a href="#" class="tw-ic ">
                         <i class="fab fa-twitter fa-2x text-white mr-3 ml-3"> </i>
                     </a>
                     <a href="#" class="ins-ic">
@@ -22,17 +22,17 @@
             <div class="col-12 mb-4 text-center footer-link">
                 <!-- REDIRECIONAMENTOS -->
                 <ul>
-                    <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3">
-                        <a href="index.php">HOME</a>
+                    <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3 text-uppercase">
+                        <a href="index.php">Home</a>
                     </li>
-                    <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3">
-                        <a href="#">QUEM SOMOS</a>
+                    <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3 text-uppercase">
+                        <a href="#">Quem somos</a>
                     </li>
-                    <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3">
-                        <a href="#">MENU</a>
+                    <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3 text-uppercase">
+                        <a href="#">Menu</a>
                     </li>
-                    <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3">
-                        <a href="#">CONTATO</a>
+                    <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3 text-uppercase">
+                        <a href="#">Contato</a>
                     </li>    
                 </ul>            
             </div>
