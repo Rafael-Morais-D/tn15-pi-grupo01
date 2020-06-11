@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Fontawesome icons -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-vlOMx0hKjUCl4WzuhIhSNZSm2yQCaf0mOU1hEDK/iztH3gU4v5NMmJln9273A6Jz" crossorigin="anonymous">
+    <!-- Preload CSS -->
+    <link rel="preload" href="./assets/css/style.css" as="style">
+    <link rel="prerender" href="./assets/css/style.css">
     <!-- Style CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- Metatags - SEO -->
@@ -31,7 +34,7 @@
         "sameAs": ["https://www.instagram.com/", "https://www.facebook.com/"],
         "brand": [
                 { "@type": "brand", "name": "Bake & Go", "url": "#" }
-        ],
+        ]
     }
     </script>
 
@@ -77,5 +80,4 @@
     <link rel="apple-touch-icon-precomposed" sizes="180x180" href="./assets/favicon/bakeandgo-180x180.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/bakeandgo-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/bakeandgo-16x16.png">
-</head>
 </head>

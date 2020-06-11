@@ -26,7 +26,7 @@
                                         <img src="./assets/img/03_bakeandgo.jpg" alt="Produto 04" width="100" height="auto">
                                         <div class="text-left mx-0 mx-md-3">
                                             <h5 class="my-0"><span class="cart-qtd">1</span> Pão Italiano</h5>
-                                            <small class="text-muted my-0">SKU: 001PAOITA</small>
+                                            <small class="text-muted my-0">REF: 001PAOITA</small>
                                         </div>
                                     </div>
                                 </td>
@@ -71,7 +71,7 @@
                                         <img src="./assets/img/05_bakeandgo.jpg" alt="Produto 04" width="100" height="auto">
                                         <div class="text-left mx-0 mx-md-3">
                                             <h5 class="my-0"><span class="cart-qtd">2</span> Bolo de Chocolate com Cobertura de Chocolate</h5>
-                                            <small class="text-muted my-0">SKU: 002BLCHOCO</small>
+                                            <small class="text-muted my-0">REF: 002BLCHOCO</small>
                                         </div>
                                     </div>
                                 </td>

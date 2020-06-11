@@ -7,7 +7,7 @@
 
 body {
   background-color: #faf8f3;
-  font-family: 'GTAmericaMono-Regular', monospace;
+  font-family: 'GTAmericaMono-Regular', 'Courier New', Courier, monospace;
   margin-top: 59.17px;
 }
 
@@ -101,13 +101,13 @@ section.btn {
 }
 
 .catProdutos h3 {
-  font-family: 'GTAmerica-ExtendedMedium', monospace;
+  font-family: 'GTAmerica-ExtendedMedium', 'Courier New', Courier, monospace;
   font-size: 0.9em;
   letter-spacing: 0.1em;
 }
 
 .menuProdutos h3 {
-  font-family: 'GTAmerica-ExtendedMedium', monospace;
+  font-family: 'GTAmerica-ExtendedMedium', 'Courier New', Courier, monospace;
   font-size: 0.9em;
   letter-spacing: 0.1em;
 }
@@ -130,24 +130,24 @@ section.btn {
 
 @font-face {
   font-family: 'GTAmericaMono-Regular';
-  src: url('GTAmericaMono-Regular.eot');
-  src: url('GTAmericaMono-Regular.eot?#iefix') format('embedded-opentype'),
-       url('GTAmericaMono-Regular.svg#GTAmericaMono-Regular') format('svg'),
-       url('GTAmericaMono-Regular.ttf') format('truetype'),
-       url('GTAmericaMono-Regular.woff') format('woff'),
-       url('GTAmericaMono-Regular.woff2') format('woff2');
+  src: url('../fonts/GTAmericaMono-Regular.eot');
+  src: url('../fonts/GTAmericaMono-Regular.eot') format('embedded-opentype'),
+       url('../fonts/GTAmericaMono-Regular.svg') format('svg'),
+       url('../fonts/GTAmericaMono-Regular.ttf') format('truetype'),
+       url('../fonts/GTAmericaMono-Regular.woff') format('woff'),
+       url('../fonts/GTAmericaMono-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'GTAmerica-ExtendedMedium';
-  src: url('GTAmerica-ExtendedMedium.eot');
-  src: url('GTAmerica-ExtendedMedium.eot?#iefix') format('embedded-opentype'),
-       url('GTAmerica-ExtendedMedium.svg#GTAmerica-ExtendedMedium') format('svg'),
-       url('GTAmerica-ExtendedMedium.ttf') format('truetype'),
-       url('GTAmerica-ExtendedMedium.woff') format('woff'),
-       url('GTAmerica-ExtendedMedium.woff2') format('woff2');
+  src: url('../fonts/GTAmerica-ExtendedMedium.eot');
+  src: url('../fonts/GTAmerica-ExtendedMedium.eot') format('embedded-opentype'),
+       url('../fonts/GTAmerica-ExtendedMedium.svg') format('svg'),
+       url('../fonts/GTAmerica-ExtendedMedium.ttf') format('truetype'),
+       url('../fonts/GTAmerica-ExtendedMedium.woff') format('woff'),
+       url('../fonts/GTAmerica-ExtendedMedium.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -173,10 +173,24 @@ section.btn {
 .page-footer a {
   font-size: 1em;
   color: #fff;
+  text-decoration: none;
 }
 
-.fb-ic, .tw-ic, .ins-ic, .wa-ic:hover a {
-  text-decoration: none !important;
+.fb-ic:hover i::before {
+  color: #8f793c!important;
+  transition: all ease-in-out 0.4s;
+}
+.tw-ic:hover i::before {
+  color: #8f793c!important;
+  transition: all ease-in-out 0.4s;
+}
+.ins-ic:hover i::before {
+  color: #8f793c!important;
+  transition: all ease-in-out 0.4s;
+}
+.wa-ic:hover i::before {
+  color: #8f793c!important;
+  transition: all ease-in-out 0.4s;
 }
 
 .checkbox a {
