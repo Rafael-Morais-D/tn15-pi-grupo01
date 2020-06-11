@@ -19,7 +19,7 @@
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "Bake & Go",
-        "logo": "#",
+        "logo": "./assets/img/bakeandgo_logo_02_black.png",
         "url": "#",
         "description": "Bake & Go, a sua padaria online.",
         "email": "bakeandgo.coffeeshop@gmail.com",
@@ -61,9 +61,9 @@
     <meta name="og:country-name" content="BR">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Bake & Go">
-    <meta name="twitter:description" content="#">
-    <meta name="twitter:image" content="#">
-    <meta name="keywords" content="Bake & Go, padaria, café, coffee shop, pão artesanal, pão italiano, pão de queijo">
+    <meta name="twitter:description" content="Bake & Go, a sua padaria online.">
+    <meta name="twitter:image" content=".assets/img/01_bakeandgo_home.jpg">
+    <meta name="keywords" content="Bake & Go, padaria, café, coffee shop, pão artesanal, pão italiano, pão de queijo, cheesecake, donuts">
     <meta property="og:type" content="website">
     <meta name="application-name" content="Bake & Go">
     <meta name="mobile-web-app-capable" content="yes">
