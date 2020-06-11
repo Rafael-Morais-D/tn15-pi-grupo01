@@ -5,7 +5,7 @@
             <div class="d-block col-12">
                 <!-- REDES SOCIAIS -->
                 <div class="col-12 mb-5 text-center">
-                    <div style="font-size: 1.2rem;">
+                    <div style="font-size: 1.1rem;">
                     <a href="#" class="fb-ic ">
                         <i class="fab fa-facebook-f fa-lg text-white mr-3 ml-3"> </i>
                     </a>
