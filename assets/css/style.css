@@ -162,8 +162,6 @@ section.btn {
   background-position-x: center;
   color: #fff;
   font-size: 0.7em;
-  /* background-position: center; */
-  /* width: 100vw; */
 }
 
 .row-footer h2 {
@@ -177,19 +175,20 @@ section.btn {
 }
 
 .fb-ic:hover i::before {
-  color: #8f793c!important;
+  color: rgb(212, 156, 2)!important;
   transition: all ease-in-out 0.4s;
 }
+
 .tw-ic:hover i::before {
-  color: #8f793c!important;
+  color: rgb(212, 156, 2)!important;
   transition: all ease-in-out 0.4s;
 }
 .ins-ic:hover i::before {
-  color: #8f793c!important;
+  color: rgb(212, 156, 2)!important;
   transition: all ease-in-out 0.4s;
 }
 .wa-ic:hover i::before {
-  color: #8f793c!important;
+  color: rgb(212, 156, 2)!important;
   transition: all ease-in-out 0.4s;
 }
 
@@ -261,7 +260,7 @@ nav.nav-adm a {
   display: block;
 }
 
-/* MEDIA QUERRIES */
+/* MEDIA QUERIES */
 
 @media only screen and (min-width: 420px) {
   body {

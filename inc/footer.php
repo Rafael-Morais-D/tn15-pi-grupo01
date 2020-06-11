@@ -5,18 +5,20 @@
             <div class="d-block col-12">
                 <!-- REDES SOCIAIS -->
                 <div class="col-12 mb-5 text-center">
+                    <div style="font-size: 1.2rem;">
                     <a href="#" class="fb-ic ">
-                        <i class="fab fa-facebook-f fa-2x text-white mr-3 ml-3"> </i>
+                        <i class="fab fa-facebook-f fa-lg text-white mr-3 ml-3"> </i>
                     </a>
                     <a href="#" class="tw-ic ">
-                        <i class="fab fa-twitter fa-2x text-white mr-3 ml-3"> </i>
+                        <i class="fab fa-twitter fa-lg text-white mr-3 ml-3"> </i>
                     </a>
                     <a href="#" class="ins-ic">
-                        <i class="fab fa-instagram fa-2x text-white mr-3 ml-3"> </i>
+                        <i class="fab fa-instagram fa-lg text-white mr-3 ml-3"> </i>
                     </a>
                     <a href="#" class="wa-ic">
-                        <i class="fab fa-whatsapp fa-2x text-white mr-3 ml-3"> </i>
+                        <i class="fab fa-whatsapp fa-lg text-white mr-3 ml-3"> </i>
                     </a>
+                </div>
                 </div>
             </div>
             <div class="col-12 mb-4 text-center footer-link">
