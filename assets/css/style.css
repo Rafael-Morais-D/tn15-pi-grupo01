@@ -324,3 +324,10 @@ nav.nav-adm a {
     flex-direction: column;
     }
 }
+
+
+.card-img-right {
+  height: 200px;
+  border-radius: 0 3px 3px 0;
+}
+
