@@ -16,6 +16,11 @@ body {
   color: #faf8f3;
 }
 
+a {
+  color: #8f793c;
+  text-decoration: none;
+}
+
 nav.navbar {
   background-color: #faf8f3!important;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
@@ -118,6 +123,10 @@ section.btn {
 
 .catAtendimento a {
   color: #8f793c!important;
+}
+
+.perfil a:hover {
+  color: #8f793c;
 }
 
 .ic-wa {

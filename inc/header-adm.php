@@ -1,6 +1,6 @@
         <div class="h-adm-space"></div>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top nav-adm m-auto">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#admNav" aria-controls="admNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#admNav" aria-controls="admNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="admNav">
