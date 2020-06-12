@@ -7,7 +7,7 @@
         </header>
         <section class="container">
             <div class="row-cesta mr-2 ml-2">
-                <form class="col-12 mb-3" id="carrinhoForm" action="pagamento.html" method="post">
+                <form class="col-12 mb-3" id="carrinhoForm" action="pagamento.php" method="post">
                     <h2 class="col-12 text-center text-info py-5 text-dark">Produtos selecionados</h2>
                     <p class="mb-5 text-center">Confira os produtos selecionados e clique em Finalizar Compra</p>
                     <table class="table">
