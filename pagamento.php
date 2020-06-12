@@ -8,7 +8,66 @@
         <section class="container">
 
         <form class="col-12 mb-3" id="pagamentoForm" action="index.php" method="post">
-        <!-- ENDEREÇO DE COBRANÇA -->
+
+            <!-- DADOS DO PEDIDO -->
+            <div class="card card-body mb-3">
+                <h3 class="col-12 text-center text-info py-3 text-dark">Dados do pedido</h3>
+                <p class="mb-3 text-center">Confira abaixo as informações do seu pedido</p>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col" colspan="2">Produto</th>
+                            <th scope="col" class="d-none d-md-table-cell">Preço Unitário</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="2">
+                                <div class="d-flex align-items-start justify-content-start flex-column flex-lg-row">
+                                    <img src="./assets/img/03_bakeandgo.jpg" alt="Produto 04" width="100" height="auto">
+                                    <div class="text-left mx-0 mx-md-3">
+                                        <h5 class="my-0"><span class="cart-qtd">1</span> Pão Italiano</h5>
+                                        <small class="text-muted my-0">REF: 001PAOITA</small>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="cart-unit-price d-none d-md-table-cell">R$12,00</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div class="d-flex align-items-start justify-content-start flex-column flex-lg-row">
+                                    <img src="./assets/img/05_bakeandgo.jpg" alt="Produto 04" width="100" height="auto">
+                                    <div class="text-left mx-0 mx-md-3">
+                                        <h5 class="my-0"><span class="cart-qtd">2</span> Bolo de Chocolate com Cobertura de Chocolate</h5>
+                                        <small class="text-muted my-0">REF: 002BLCHOCO</small>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="cart-unit-price d-none d-md-table-cell">R$25,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Subtotal</th>
+                            <th scope="col">Cupom de desconto</th>
+                            <th scope="col">Frete</th>
+                            <th scope="col">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td >R$37,00</td>
+                            <td >R$0,00</td>
+                            <td >R$9,99</td>
+                            <td >R$46,99</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- ENDEREÇO DE COBRANÇA -->
             <div class="card card-body mb-3">
                 <h3 class="col-12 text-center text-info py-3 text-dark">Endereço de cobrança</h3>
                 <p class="mb-3 text-center">Preencha os campos abaixo com os dados do endereço de cobrança</p>
@@ -79,64 +138,6 @@
                         <textarea class="form-control" placeholder="Observações (ex.: deixar na portaria)" name="observacaoPedido" id="observacaoPedido" rows="3" aria-describedby="#observacaoPedidoHelp"></textarea>
                     </div>
                 </fieldset>
-            </div>
-
-            <!-- DADOS DO PEDIDO -->
-            <div class="card card-body mb-3">
-                <h3 class="col-12 text-center text-info py-3 text-dark">Dados do pedido</h3>
-                <p class="mb-3 text-center">Confira abaixo as informações do seu pedido</p>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th scope="col" colspan="2">Produto</th>
-                            <th scope="col" class="d-none d-md-table-cell">Preço Unitário</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td colspan="2">
-                                <div class="d-flex align-items-start justify-content-start flex-column flex-lg-row">
-                                    <img src="./assets/img/03_bakeandgo.jpg" alt="Produto 04" width="100" height="auto">
-                                    <div class="text-left mx-0 mx-md-3">
-                                        <h5 class="my-0"><span class="cart-qtd">1</span> Pão Italiano</h5>
-                                        <small class="text-muted my-0">REF: 001PAOITA</small>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="cart-unit-price d-none d-md-table-cell">R$12,00</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">
-                                <div class="d-flex align-items-start justify-content-start flex-column flex-lg-row">
-                                    <img src="./assets/img/05_bakeandgo.jpg" alt="Produto 04" width="100" height="auto">
-                                    <div class="text-left mx-0 mx-md-3">
-                                        <h5 class="my-0"><span class="cart-qtd">2</span> Bolo de Chocolate com Cobertura de Chocolate</h5>
-                                        <small class="text-muted my-0">REF: 002BLCHOCO</small>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="cart-unit-price d-none d-md-table-cell">R$25,00</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th scope="col">Subtotal</th>
-                            <th scope="col">Cupom de desconto</th>
-                            <th scope="col">Frete</th>
-                            <th scope="col">Total</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td >R$37,00</td>
-                            <td >R$0,00</td>
-                            <td >R$9,99</td>
-                            <td >R$46,99</td>
-                        </tr>
-                    </tbody>
-                </table>
             </div>
 
             <!-- DADOS DE PAGAMENTO -->
