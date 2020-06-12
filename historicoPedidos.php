@@ -3,9 +3,10 @@
 <?php require_once("./inc/header.php"); ?>
 <?php require_once("./inc/header-adm.php"); ?>
 
-<main class="container py-5 mt-5">
+<main class="container perfil py-5 mt-5">
     <h2>Exemplilson da Silva</h2>
     <p>exemplison1@email.com.br</p>
+    <a href="admEdicaoUsuario.php">Editar meu perfil</a>
     <hr class="accent my-5">
     <h2 class="mb-4">Histórico de Pedidos</h2>
     <div class="row mr-2 ml-2">
