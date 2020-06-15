@@ -137,6 +137,12 @@ section.btn {
   color: #8f793c;
 }
 
+.table { 
+  width: 100%; 
+  display: table;
+  border-collapse: collapse; 
+}
+
 @font-face {
   font-family: 'GTAmericaMono-Regular';
   src: url('../fonts/GTAmericaMono-Regular.eot');

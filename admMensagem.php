@@ -4,8 +4,8 @@
 
 <main class="container py-5 mt-5">
     <h2>Mensagens</h2>
-    <div id="table">
-        <table class="table">
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover text-center">
             <thead>
                 <tr>
                     <th scope="col">ID</th>
@@ -15,7 +15,7 @@
                     <th scope="col">Excluir</th>
                 </tr>
             </thead>
-            <tbody id="myTable">
+            <tbody>
                 <tr>
                     <td scope="row">001</td>
                     <td scope="row">Exemplilson da Silva 1</td>

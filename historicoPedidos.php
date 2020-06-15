@@ -1,4 +1,3 @@
-<?php $tituloDaPagina = "Histórico de Pedidos" ?>
 <?php require_once("./inc/head.php"); ?>
 <?php require_once("./inc/header.php"); ?>
 <?php require_once("./inc/header-adm.php"); ?>
@@ -9,8 +8,8 @@
     <a href="admEdicaoUsuario.php">Editar meu perfil</a>
     <hr class="accent my-5">
     <h2 class="mb-4">Histórico de Pedidos</h2>
-    <div class="row mr-2 ml-2">
-        <table class="table">
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover text-center">
             <thead>
                 <tr>
                     <th scope="col">ID Pedido</th>
@@ -20,7 +19,7 @@
                     <th scope="col">Status</th>
                     </tr>
                     </thead>
-                    <tbody id="myTable">
+                    <tbody>
                         <tr>
                             <td scope="row">000</td>
                             <td scope="row">Pão Italiano</td>
