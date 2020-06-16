@@ -1,3 +1,4 @@
+<?php $tituloPagina = "| Cesta de Compras"; ?>
 <?php require_once("./inc/head.php"); ?>
 <?php require_once("./inc/header.php"); ?>
 
