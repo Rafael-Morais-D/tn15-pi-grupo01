@@ -1,4 +1,4 @@
-<?php $tituloPagina = "| Adm Histórico de Pedidos"; ?>
+<?php $tituloPagina = "Bake & Go | Adm Histórico de Pedidos"; ?>
 <?php require_once("./inc/head.php"); ?>
 <?php require_once("./inc/header.php"); ?>
 <?php require_once("./inc/header-adm.php"); ?>

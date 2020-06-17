@@ -1,4 +1,4 @@
-<?php $tituloPagina = "| Pagamento"; ?>
+<?php $tituloPagina = "Bake & Go | Pagamento"; ?>
 <?php require_once("./inc/head.php"); ?>
 <?php require_once("./inc/header.php"); ?>
 

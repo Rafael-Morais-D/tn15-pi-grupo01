@@ -1,4 +1,4 @@
-<?php $tituloPagina = "| Adm Categorias"; ?>
+<?php $tituloPagina = "Bake & Go | Adm Categorias"; ?>
 <?php require_once("./inc/head.php"); ?>
 <?php require_once("./inc/header.php"); ?>
 <?php require_once("./inc/header-adm.php"); ?>

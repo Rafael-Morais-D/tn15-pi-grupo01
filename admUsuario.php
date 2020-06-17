@@ -1,4 +1,4 @@
-<?php $tituloPagina = "| Adm Usuários"; ?>
+<?php $tituloPagina = "Bake & Go | Adm Usuários"; ?>
 <?php require_once("./inc/head.php"); ?>
 <?php require_once("./inc/header.php"); ?>
 <?php require_once("./inc/header-adm.php"); ?>

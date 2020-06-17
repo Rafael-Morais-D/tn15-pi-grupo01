@@ -1,4 +1,4 @@
-<?php $tituloPagina = "| Editar Perfil"; ?>
+<?php $tituloPagina = "Bake & Go | Editar Perfil"; ?>
 <?php require_once("./inc/head.php"); ?>
 <?php require_once("./inc/header.php"); ?>
 
