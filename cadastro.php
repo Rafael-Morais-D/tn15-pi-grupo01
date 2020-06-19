@@ -75,4 +75,4 @@
             </div>
         </div>
     </div>
-<?php require_once("./inc/footer-adm.php"); ?>
+<?php require_once("./inc/footer.php"); ?>
