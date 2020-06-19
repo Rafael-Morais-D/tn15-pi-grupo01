@@ -162,29 +162,29 @@ section.btn {
   background-size: cover;
   background-position-x: center;
 }
-.ftco-counter {
+.counter-section {
   padding: 5em 0;
 }
-.ftco-counter .text strong.number {
+.counter-section .text strong.number {
   font-size: 1.9em;
   color: #fff;
 }
-.ftco-counter .text span {
+.counter-section .text span {
   display: block;
   font-size: 0.9em;
   color: #fff;
   text-transform: uppercase;
 }
 @media (max-width: 767.98px) {
-  .ftco-counter .counter-wrap {
+  .counter-section .counter-wrap {
   font-size: 0.9em;;
   margin-bottom: 2em;
   }
 }
-.ftco-counter .ftco-number {
+.counter-section .number {
   display: block;
 }
-.ftco-counter .ftco-label {
+.counter-section {
   text-transform: uppercase;
 }
 
