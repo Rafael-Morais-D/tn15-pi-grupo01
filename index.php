@@ -21,7 +21,7 @@
       <div class="col-lg-6 w-100 my-auto text-center text-lg-right">
         <h2>Pão Italiano</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
-        <a href="./cesta-de-compras.php" class="btn btn-primary">COMPRAR</a>
+        <a href="./cesta-de-compras.php" class="btn hvr-icon-basket">Add a Cesta <i class="fa fa-shopping-basket hvr-icon"></i></a>
       </div>
       <div class="col-lg-5 col-md mx-auto">
         <img class="img-fluid" src="./assets/img/03_bakeandgo.jpg" alt="">
@@ -31,13 +31,13 @@
       <div class="col-lg-6 w-100 my-auto text-center text-lg-left">
         <h2>Bolo de Chocolate com cobertura de Chocolate</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
-        <a href="./cesta-de-compras.php" class="btn btn-primary">COMPRAR</a>
+        <a href="./cesta-de-compras.php" class="btn hvr-icon-basket">Add a Cesta <i class="fa fa-shopping-basket hvr-icon"></i></a>
+        </div>
+        <div class="col-lg-5 col-md mx-auto order-lg-first">
+          <img class="img-fluid" src="./assets/img/05_bakeandgo.jpg" alt="">
+        </div>
       </div>
-      <div class="col-lg-5 col-md mx-auto order-lg-first">
-        <img class="img-fluid" src="./assets/img/05_bakeandgo.jpg" alt="">
-      </div>
-    </div>
-  </section>
+    </section>
 <!-- Menu -->
   <section class="menuProdutos">
     <div class="container">
@@ -64,7 +64,7 @@
                 <option value=9>9</option>
                 <option value=10>10</option>
                 </select>
-                <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">COMPRAR</a>
+                <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">Add a Cesta</a>
               </div>
               <div class="card card-body">
                 <span class="float-right">R$8</span>
@@ -83,7 +83,7 @@
                   <option value=9>9</option>
                   <option value=10>10</option>
                   </select>
-                  <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">COMPRAR</a>
+                  <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">Add a Cesta</a>
                 </div>
                 <div class="card card-body">
                   <span class="float-right">R$14</span>
@@ -102,7 +102,7 @@
                     <option value=9>9</option>
                     <option value=10>10</option>
                     </select>
-                    <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">COMPRAR</a>
+                    <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">Add a Cesta</a>
                     </div>
                     <div class="card card-body">
                       <span class="float-right">R$10</span>
@@ -121,16 +121,51 @@
                         <option value=9>9</option>
                         <option value=10>10</option>
                         </select>
-                        <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">COMPRAR</a>
+                        <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">Add a Cesta</a>
                       </div>
                     </div>
                   </div>
-                  <div class="col-12 mt-5 mb-5 text-center">
+                  <div class="col-12 mt-5 mb-3 text-center">
                     <a href="#" class="btn btn-primary">VER MENU</a>
                     </div>
                   </div>
               </section>
-              <hr class="accent my-5">
+              <!-- Section - Contador -->
+              <section class="ftco-section ftco-counter img" id="section-counter">
+              <div class="container">
+                <div class="row justify-content-center py-5">
+                  <div class="col-md-12">
+                    <div class="row">
+                      <div class="col-md-4 d-flex justify-content-center counter-wrap ftco-animate">
+                        <div class="block-18 text-center">
+                          <div class="text">
+                            <strong class="number" data-number="1202">0</strong>
+                            <span class="mt-2">Pães assados este mês</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center counter-wrap ftco-animate">
+                          <div class="block-18 text-center">
+                            <div class="text">
+                              <strong class="number" data-number="476">0</strong>
+                              <span class="mt-2">Entregas realizadas</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center counter-wrap ftco-animate">
+                          <div class="block-18 text-center">
+                            <div class="text">
+                              <strong class="number" data-number="625">0</strong>
+                              <span class="mt-2">Clientes satisfeitos</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- Section - Atendimento -->
               <section class="catAtendimento">
                 <div class="row">
                   <div class="col-lg-6 w-100 my-auto mb-4 text-center text-lg-left">
