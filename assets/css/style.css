@@ -76,7 +76,7 @@ img.logo-header {
   text-align: center;
   height: 35vh;
   width: 100%;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 90%, #000000 100%), url('../img/08_bakeandgo.jpg')!important;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 90%, #000000 100%), url('../img/09_bakeandgo.jpg')!important;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
