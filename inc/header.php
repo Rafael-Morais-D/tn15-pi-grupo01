@@ -10,7 +10,7 @@
                     <a class="nav-link" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Quem somos</a>
+                    <a class="nav-link" href="quem-somos.php">Quem somos</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
@@ -22,7 +22,7 @@
                         </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
+                    <a class="nav-link" href="contato.php">Contato</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link btn btn-primary col-12 text mb-3 mb-md-1 ml-md-1 px-md-3" href="#" data-toggle="modal" data-target="#btnLogin">Login</a>

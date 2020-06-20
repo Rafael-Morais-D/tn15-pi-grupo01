@@ -3,7 +3,7 @@
 <?php require_once("./inc/header.php"); ?>
 
 <!-- Form - Cadastro -->
-<div class="container-fluid py-5 mt-5">
+    <div class="container-fluid py-5 mt-5">
         <div class="form-cadastro">
             <div class="col-md-6 mx-auto">
                     <div class="card card-body">
