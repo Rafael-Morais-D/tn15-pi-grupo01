@@ -72,6 +72,52 @@ img.logo-header {
   font-size: 1rem;
 }
 
+.sliding-u-l-r-l {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0.5em;
+  cursor: default;
+}
+.sliding-u-l-r-l:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  transition: width 0s ease, background .5s ease;
+}
+.sliding-u-l-r-l:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background: #8f793c;
+  transition: width .5s ease;
+}
+.sliding-u-l-r-l:hover:before {
+  width: 100%;
+  background: #8f793c;
+  transition: width .5s ease;
+}
+.sliding-u-l-r-l:hover:after {
+  width: 100%;
+  background: transparent;
+  transition: all 0s ease;
+}
+@media (min-width: 300px) and (max-width: 574.98px) {
+  .sliding-u-l-r-l:hover:before {
+    display: none;
+  }
+  .sliding-u-l-r-l:hover:after {
+    display: none;
+  }
+}
+
 .quem-somos-banner {
   text-align: center;
   height: 35vh;
@@ -436,20 +482,6 @@ nav.nav-adm a {
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .card-columns {
-    display: flex;
-    flex-direction: column;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .card-columns {
-    display: flex;
-    flex-direction: column;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
   .card-columns {
     display: flex;
     flex-direction: column;
