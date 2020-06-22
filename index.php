@@ -49,7 +49,7 @@
           <div class="card-columns">
             <div class="card card-body">
             <span class="float-right">R$12</span>
-              <h3 class="text-truncate">Pão Italiano</h3>
+              <h3 class="text-truncate sliding-u-l-r-l">Pão Italiano</h3>
               <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod inventore, voluptatibus fugiat eveniet atque optio? Facere sequi rerum error doloremque quas ea qui earum, tempora ex ipsa facilis quod itaque?</p>
               <label class="form-qtd" name="qtd">Qtd</label>
               <select class="qtd mb-3" name="qtd">
@@ -68,7 +68,7 @@
               </div>
               <div class="card card-body">
                 <span class="float-right">R$8</span>
-                <h3 class="text-truncate">Bagel</h3>
+                <h3 class="text-truncate sliding-u-l-r-l">Bagel</h3>
                 <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro a temporibus asperiores vitae alias, cumque eligendi deserunt, unde, quam saepe inventore distinctio mollitia sequi aliquam iusto sit facilis cupiditate!</p>
                 <label class="form-qtd" name="qtd">Qtd</label>
                 <select class="qtd mb-3" name="qtd">
@@ -87,7 +87,7 @@
                 </div>
                 <div class="card card-body">
                   <span class="float-right">R$14</span>
-                  <h3 class="text-truncate">Cheesecake</h3>
+                  <h3 class="text-truncate sliding-u-l-r-l">Cheesecake</h3>
                   <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem facere nemo laboriosam architecto, magnam sunt veritatis neque autem quod libero illum unde eius expedita impedit sit perferendis. Ipsa, aliquam atque.</p>
                   <label class="form-inline-block" name="qtd">Qtd</label>
                   <select class="qtd mb-3" name="qtd">
@@ -106,7 +106,7 @@
                     </div>
                     <div class="card card-body">
                       <span class="float-right">R$10</span>
-                      <h3 class="text-truncate">Croissant</h3>
+                      <h3 class="text-truncate sliding-u-l-r-l">Croissant</h3>
                       <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores delectus, iusto earum nesciunt similique nulla ullam hic explicabo! Explicabo ullam rem suscipit corporis, molestias non totam. Dolorum laboriosam debitis odit.</p>
                       <label class="form-inline-block" name="qtd">Qtd</label>
                       <select class="mb-3" name="qtd">

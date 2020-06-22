@@ -72,9 +72,55 @@ img.logo-header {
   font-size: 1rem;
 }
 
+.sliding-u-l-r-l {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0.5em;
+  cursor: default;
+}
+.sliding-u-l-r-l:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  transition: width 0s ease, background .5s ease;
+}
+.sliding-u-l-r-l:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background: #8f793c;
+  transition: width .5s ease;
+}
+.sliding-u-l-r-l:hover:before {
+  width: 100%;
+  background: #8f793c;
+  transition: width .5s ease;
+}
+.sliding-u-l-r-l:hover:after {
+  width: 100%;
+  background: transparent;
+  transition: all 0s ease;
+}
+@media (min-width: 300px) and (max-width: 574.98px) {
+  .sliding-u-l-r-l:hover:before {
+    display: none;
+  }
+  .sliding-u-l-r-l:hover:after {
+    display: none;
+  }
+}
+
 .quem-somos-banner {
   text-align: center;
-  height: 35vh;
+  height: 45vh;
   width: 100%;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 90%, #000000 100%), url('../img/09_bakeandgo.jpg')!important;
   background-repeat: no-repeat;
@@ -82,6 +128,20 @@ img.logo-header {
   background-size: cover;
   background-position: bottom;
   border-radius: 0;
+}
+
+.quem-somos-banner h2 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.quem-somos p {
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+.quem-somos h2 {
+  font-size: 1.2em;
 }
 
 .row {
@@ -244,22 +304,6 @@ section.btn {
        url('../fonts/GTAmerica-ExtendedMedium.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
-}
-
-.quem-somos-banner h2 {
-  font-size: 2rem;
-  margin-top: 50px;
-  color: #fff;
-}
-
-.quem-somos-logo img {
-  width: 80%;
-  max-width: 350px;
-}
-
-.quem-somos p {
-  font-size: 0.9rem;
-  text-align: justify;
 }
 
 .mapa h3 {
@@ -436,20 +480,6 @@ nav.nav-adm a {
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .card-columns {
-    display: flex;
-    flex-direction: column;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .card-columns {
-    display: flex;
-    flex-direction: column;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
   .card-columns {
     display: flex;
     flex-direction: column;
