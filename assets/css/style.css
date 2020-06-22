@@ -120,7 +120,7 @@ img.logo-header {
 
 .quem-somos-banner {
   text-align: center;
-  height: 35vh;
+  height: 45vh;
   width: 100%;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 90%, #000000 100%), url('../img/09_bakeandgo.jpg')!important;
   background-repeat: no-repeat;
@@ -128,6 +128,20 @@ img.logo-header {
   background-size: cover;
   background-position: bottom;
   border-radius: 0;
+}
+
+.quem-somos-banner h2 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.quem-somos p {
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+.quem-somos h2 {
+  font-size: 1.2em;
 }
 
 .row {
@@ -290,25 +304,6 @@ section.btn {
        url('../fonts/GTAmerica-ExtendedMedium.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
-}
-
-.quem-somos-banner h2 {
-  font-size: 2rem;
-  margin-top: 50px;
-  color: #fff;
-}
-
-/* .quem-somos {
-  margin-top: 10px;
-} */
-
-.quem-somos p {
-  font-size: 0.9rem;
-  text-align: justify;
-}
-
-.quem-somos h2 {
-  font-size: 1.2em;
 }
 
 .mapa h3 {
