@@ -298,14 +298,17 @@ section.btn {
   color: #fff;
 }
 
-.quem-somos-logo img {
-  width: 80%;
-  max-width: 350px;
-}
+/* .quem-somos {
+  margin-top: 10px;
+} */
 
 .quem-somos p {
   font-size: 0.9rem;
   text-align: justify;
+}
+
+.quem-somos h2 {
+  font-size: 1.2em;
 }
 
 .mapa h3 {
