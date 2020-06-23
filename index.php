@@ -10,7 +10,6 @@
       </div>
     </div>
 </main>
-
 <!-- Section com produtos-->
 <section class="catProdutos">
   <div class="col-lg-10 mx-auto col-12 text-center mb-3">
@@ -53,24 +52,9 @@
                 <h4>R$12</h4>
               </div>
               <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod inventore, voluptatibus fugiat eveniet atque optio? Facere sequi rerum error doloremque quas ea qui earum, tempora ex ipsa facilis quod itaque?</p>
-              <!-- <label class="form-qtd" name="qtd">Qtd</label> -->
-              <!-- <select class="qtd mb-3" name="qtd">
-                <option selected value=1>1</option>
-                <option value=2>2</option>
-                <option value=3>3</option>
-                <option value=4>4</option>
-                <option value=5>5</option>
-                <option value=6>6</option>
-                <option value=7>7</option>
-                <option value=8>8</option>
-                <option value=9>9</option>
-                <option value=10>10</option>
-                </select> -->
-                <!-- <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">Add a Cesta</a> -->
                 <div class="options">
                   <p class="form-inline-block float-left mr-2" name="qtd"><small>Qtd</p></small>
                   <select class="qtd" name="qtd">
-
                     <option selected value=1>1</option>
                     <option value=2>2</option>
                     <option value=3>3</option>
