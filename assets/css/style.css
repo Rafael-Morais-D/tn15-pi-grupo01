@@ -120,7 +120,7 @@ img.logo-header {
 
 .quem-somos-banner {
   text-align: center;
-  height: 45vh;
+  height: 40vh;
   width: 100%;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 90%, #000000 100%), url('../img/09_bakeandgo.jpg')!important;
   background-repeat: no-repeat;
@@ -133,6 +133,7 @@ img.logo-header {
 .quem-somos-banner h2 {
   font-size: 2rem;
   color: #fff;
+  margin-top: 55px;
 }
 
 .quem-somos p {
@@ -142,6 +143,11 @@ img.logo-header {
 
 .quem-somos h2 {
   font-size: 1.2em;
+}
+
+.mensagem {
+  min-height: 100%;
+  height: 439px;
 }
 
 .row {
@@ -439,7 +445,7 @@ nav.nav-adm a {
 
   .quem-somos-banner h2 {
     font-size: 3rem;
-    margin-top: 70px;
+    margin-top: 90px;
   }
 }
 
