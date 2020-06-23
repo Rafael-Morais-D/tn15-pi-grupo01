@@ -109,14 +109,6 @@ img.logo-header {
   background: transparent;
   transition: all 0s ease;
 }
-@media (min-width: 300px) and (max-width: 574.98px) {
-  .sliding-u-l-r-l:hover:before {
-    display: none;
-  }
-  .sliding-u-l-r-l:hover:after {
-    display: none;
-  }
-}
 
 .quem-somos-banner {
   text-align: center;
@@ -158,6 +150,10 @@ img.logo-header {
 
 .card-columns {
   column-count: 2;
+}
+
+.card-columns h4{
+  font-size: 0.9em;
 }
 
 section.btn {
@@ -219,6 +215,13 @@ section.btn {
   font-family: 'GTAmerica-ExtendedMedium', 'Courier New', Courier, monospace;
   font-size: 0.9em;
   letter-spacing: 0.1em;
+}
+@media (min-width: 300px) and (max-width: 574.98px) {
+  .catProdutos h3 {
+    font-family: 'GTAmerica-ExtendedMedium', 'Courier New', Courier, monospace;
+    font-size: 0.75em;
+    letter-spacing: 0.1em;
+  }
 }
 
 .menuProdutos h3 {

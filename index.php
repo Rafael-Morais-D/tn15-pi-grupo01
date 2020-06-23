@@ -25,7 +25,7 @@
       </div>
       <div class="col-lg-5 col-md mx-auto">
         <img class="img-fluid" src="./assets/img/03_bakeandgo.jpg" alt="">
-      </div>
+        </div>
     </div>
     <div class="row">
       <div class="col-lg-6 w-100 my-auto text-center text-lg-left">
@@ -48,8 +48,10 @@
           </div>
           <div class="card-columns">
             <div class="card card-body">
-            <span class="float-right">R$12</span>
-              <h3 class="text-truncate sliding-u-l-r-l">Pão Italiano</h3>
+              <div class="d-flex justify-content-between align-items-center">
+                <h3 class="text-truncate sliding-u-l-r-l">Pão Italiano</h3>
+                <h4>R$12</h4>
+              </div>
               <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod inventore, voluptatibus fugiat eveniet atque optio? Facere sequi rerum error doloremque quas ea qui earum, tempora ex ipsa facilis quod itaque?</p>
               <label class="form-qtd" name="qtd">Qtd</label>
               <select class="qtd mb-3" name="qtd">
@@ -67,8 +69,10 @@
                 <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">Add a Cesta</a>
               </div>
               <div class="card card-body">
-                <span class="float-right">R$8</span>
-                <h3 class="text-truncate sliding-u-l-r-l">Bagel</h3>
+                <div class="d-flex justify-content-between align-items-center">
+                  <h3 class="text-truncate sliding-u-l-r-l">Bagel</h3>
+                  <h4>R$8</h4>
+                </div>
                 <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro a temporibus asperiores vitae alias, cumque eligendi deserunt, unde, quam saepe inventore distinctio mollitia sequi aliquam iusto sit facilis cupiditate!</p>
                 <label class="form-qtd" name="qtd">Qtd</label>
                 <select class="qtd mb-3" name="qtd">
@@ -86,8 +90,10 @@
                   <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">Add a Cesta</a>
                 </div>
                 <div class="card card-body">
-                  <span class="float-right">R$14</span>
-                  <h3 class="text-truncate sliding-u-l-r-l">Cheesecake</h3>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h3 class="text-truncate sliding-u-l-r-l">Cheesecake</h3>
+                    <h4>R$14</h4>
+                </div>
                   <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem facere nemo laboriosam architecto, magnam sunt veritatis neque autem quod libero illum unde eius expedita impedit sit perferendis. Ipsa, aliquam atque.</p>
                   <label class="form-inline-block" name="qtd">Qtd</label>
                   <select class="qtd mb-3" name="qtd">
@@ -105,11 +111,13 @@
                     <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">Add a Cesta</a>
                     </div>
                     <div class="card card-body">
-                      <span class="float-right">R$10</span>
-                      <h3 class="text-truncate sliding-u-l-r-l">Croissant</h3>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h3 class="text-truncate sliding-u-l-r-l">Croissant</h3>
+                        <h4>R$10</h4>
+                    </div>
                       <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores delectus, iusto earum nesciunt similique nulla ullam hic explicabo! Explicabo ullam rem suscipit corporis, molestias non totam. Dolorum laboriosam debitis odit.</p>
                       <label class="form-inline-block" name="qtd">Qtd</label>
-                      <select class="mb-3" name="qtd">
+                      <select class="qtd mb-3" name="qtd">
                         <option selected value=1>1</option>
                         <option value=2>2</option>
                         <option value=3>3</option>
