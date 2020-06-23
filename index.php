@@ -4,9 +4,9 @@
 <!-- Main -->
 <main class="banner">
   <div class="container d-flex h-100 align-items-center">
-    <div class="mx-auto text-center" data-aos="fade-up" data-aos-duration="1500">
-      <h1 class="mx-auto my-0">Baked & fresh</h1>
-      <h2 class="mx-auto mt-2 mb-5">Do pão de fermentação natural ao pão francês, não importa a hora, nós iremos até você.</h2>
+    <div class="mx-auto text-center">
+      <h1 class="mx-auto my-0" data-aos="fade-up" data-aos-duration="1500">Baked & fresh</h1>
+      <h2 class="mx-auto mt-2 mb-5" data-aos="fade-up" data-aos-duration="1500">Do pão de fermentação natural ao pão francês, não importa a hora, nós iremos até você.</h2>
       </div>
     </div>
 </main>
