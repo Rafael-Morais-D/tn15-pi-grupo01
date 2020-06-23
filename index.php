@@ -53,8 +53,8 @@
                 <h4>R$12</h4>
               </div>
               <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod inventore, voluptatibus fugiat eveniet atque optio? Facere sequi rerum error doloremque quas ea qui earum, tempora ex ipsa facilis quod itaque?</p>
-              <label class="form-qtd" name="qtd">Qtd</label>
-              <select class="qtd mb-3" name="qtd">
+              <!-- <label class="form-qtd" name="qtd">Qtd</label> -->
+              <!-- <select class="qtd mb-3" name="qtd">
                 <option selected value=1>1</option>
                 <option value=2>2</option>
                 <option value=3>3</option>
@@ -65,38 +65,12 @@
                 <option value=8>8</option>
                 <option value=9>9</option>
                 <option value=10>10</option>
-                </select>
-                <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">Add a Cesta</a>
-              </div>
-              <div class="card card-body">
-                <div class="d-flex justify-content-between align-items-center">
-                  <h3 class="text-truncate sliding-u-l-r-l">Bagel</h3>
-                  <h4>R$8</h4>
-                </div>
-                <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro a temporibus asperiores vitae alias, cumque eligendi deserunt, unde, quam saepe inventore distinctio mollitia sequi aliquam iusto sit facilis cupiditate!</p>
-                <label class="form-qtd" name="qtd">Qtd</label>
-                <select class="qtd mb-3" name="qtd">
-                  <option selected value=1>1</option>
-                  <option value=2>2</option>
-                  <option value=3>3</option>
-                  <option value=4>4</option>
-                  <option value=5>5</option>
-                  <option value=6>6</option>
-                  <option value=7>7</option>
-                  <option value=8>8</option>
-                  <option value=9>9</option>
-                  <option value=10>10</option>
-                  </select>
-                  <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">Add a Cesta</a>
-                </div>
-                <div class="card card-body">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <h3 class="text-truncate sliding-u-l-r-l">Cheesecake</h3>
-                    <h4>R$14</h4>
-                </div>
-                  <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem facere nemo laboriosam architecto, magnam sunt veritatis neque autem quod libero illum unde eius expedita impedit sit perferendis. Ipsa, aliquam atque.</p>
-                  <label class="form-inline-block" name="qtd">Qtd</label>
-                  <select class="qtd mb-3" name="qtd">
+                </select> -->
+                <!-- <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">Add a Cesta</a> -->
+                <div class="options">
+                  <p class="form-inline-block float-left mr-2" name="qtd"><small>Qtd</p></small>
+                  <select class="qtd" name="qtd">
+
                     <option selected value=1>1</option>
                     <option value=2>2</option>
                     <option value=3>3</option>
@@ -107,36 +81,93 @@
                     <option value=8>8</option>
                     <option value=9>9</option>
                     <option value=10>10</option>
-                    </select>
+                  </select>
+                  <span class="float-right">
                     <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">Add a Cesta</a>
-                    </div>
-                    <div class="card card-body">
-                      <div class="d-flex justify-content-between align-items-center">
-                        <h3 class="text-truncate sliding-u-l-r-l">Croissant</h3>
-                        <h4>R$10</h4>
-                    </div>
-                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores delectus, iusto earum nesciunt similique nulla ullam hic explicabo! Explicabo ullam rem suscipit corporis, molestias non totam. Dolorum laboriosam debitis odit.</p>
-                      <label class="form-inline-block" name="qtd">Qtd</label>
-                      <select class="qtd mb-3" name="qtd">
-                        <option selected value=1>1</option>
-                        <option value=2>2</option>
-                        <option value=3>3</option>
-                        <option value=4>4</option>
-                        <option value=5>5</option>
-                        <option value=6>6</option>
-                        <option value=7>7</option>
-                        <option value=8>8</option>
-                        <option value=9>9</option>
-                        <option value=10>10</option>
-                        </select>
-                        <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">Add a Cesta</a>
-                      </div>
+                  </span>
+                </div>  
+              </div>
+              <div class="card card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <h3 class="text-truncate sliding-u-l-r-l">Bagel</h3>
+                  <h4>R$8</h4>
+                </div>
+                <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro a temporibus asperiores vitae alias, cumque eligendi deserunt, unde, quam saepe inventore distinctio mollitia sequi aliquam iusto sit facilis cupiditate!</p>
+                <div class="options">
+                  <p class="form-inline-block float-left mr-2" name="qtd"><small>Qtd</p></small>
+                  <select class="qtd" name="qtd">
+                    <option selected value=1>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                    <option value=4>4</option>
+                    <option value=5>5</option>
+                    <option value=6>6</option>
+                    <option value=7>7</option>
+                    <option value=8>8</option>
+                    <option value=9>9</option>
+                    <option value=10>10</option>
+                  </select>
+                  <span class="float-right">
+                    <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">Add a Cesta</a>
+                  </span>
+                </div>
+              </div>
+              <div class="card card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <h3 class="text-truncate sliding-u-l-r-l">Cheesecake</h3>
+                  <h4>R$14</h4>
+                </div>
+                <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem facere nemo laboriosam architecto, magnam sunt veritatis neque autem quod libero illum unde eius expedita impedit sit perferendis. Ipsa, aliquam atque.</p>
+                <div class="options">
+                  <p class="form-inline-block float-left mr-2" name="qtd"><small>Qtd</p></small>
+                  <select class="qtd" name="qtd">
+                    <option selected value=1>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                    <option value=4>4</option>
+                    <option value=5>5</option>
+                    <option value=6>6</option>
+                    <option value=7>7</option>
+                    <option value=8>8</option>
+                    <option value=9>9</option>
+                    <option value=10>10</option>
+                  </select>
+                  <span class="float-right">
+                    <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">Add a Cesta</a>
+                  </span>
+                  </div>
+                </div>
+                <div class="card card-body">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h3 class="text-truncate sliding-u-l-r-l">Croissant</h3>
+                    <h4>R$10</h4>
+                  </div>
+                  <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores delectus, iusto earum nesciunt similique nulla ullam hic explicabo! Explicabo ullam rem suscipit corporis, molestias non totam. Dolorum laboriosam debitis odit.</p>
+                  <div class="options">
+                    <p class="form-inline-block float-left mr-2" name="qtd"><small>Qtd</p></small>
+                    <select class="qtd" name="qtd">
+                      <option selected value=1>1</option>
+                      <option value=2>2</option>
+                      <option value=3>3</option>
+                      <option value=4>4</option>
+                      <option value=5>5</option>
+                      <option value=6>6</option>
+                      <option value=7>7</option>
+                      <option value=8>8</option>
+                      <option value=9>9</option>
+                      <option value=10>10</option>
+                    </select>
+                    <span class="float-right">
+                      <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">Add a Cesta</a>
+                    </span>
                     </div>
                   </div>
-                  <div class="col-12 mt-5 mb-3 text-center">
-                    <a href="#" class="btn btn-primary">VER MENU</a>
-                    </div>
-                  </div>
+                </div>
+              </div>
+              <div class="col-12 mt-5 mb-3 text-center">
+                <a href="#" class="btn btn-primary">VER MENU</a>
+              </div>
+              </div>
               </section>
               <!-- Section - Contador -->
               <section class="counter-section img" id="section-counter">
