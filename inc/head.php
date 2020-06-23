@@ -13,6 +13,8 @@
     <link rel="prerender" href="./assets/css/style.css">
     <!-- Style CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Animação Fade Up -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Metatags - SEO -->
     <script type="application/ld+json">
     {

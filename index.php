@@ -4,7 +4,7 @@
 <!-- Main -->
 <main class="banner">
   <div class="container d-flex h-100 align-items-center">
-    <div class="mx-auto text-center">
+    <div class="mx-auto text-center" data-aos="fade-up" data-aos-duration="1500">
       <h1 class="mx-auto my-0">Baked & fresh</h1>
       <h2 class="mx-auto mt-2 mb-5">Do pão de fermentação natural ao pão francês, não importa a hora, nós iremos até você.</h2>
       </div>
@@ -17,7 +17,7 @@
     <h3 class="mt-5 mb-4 text-uppercase"><i class="fal fa-wheat fa-lg mt-4 mr-3"></i>Conheça nossos produtos<i class="fal fa-wheat fa-lg ml-3"></i></h3>
     <hr class="accent my-5">
     </div>
-    <div class="row">
+    <div class="row" data-aos="fade-up" data-aos-duration="1500">
       <div class="col-lg-6 w-100 my-auto text-center text-lg-right">
         <h2>Pão Italiano</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
@@ -27,7 +27,7 @@
         <img class="img-fluid" src="./assets/img/03_bakeandgo.jpg" alt="">
         </div>
     </div>
-    <div class="row">
+    <div class="row" data-aos="fade-up" data-aos-duration="1500">
       <div class="col-lg-6 w-100 my-auto text-center text-lg-left">
         <h2>Bolo de Chocolate com cobertura de Chocolate</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
@@ -46,7 +46,7 @@
           <h3 class="mt-5 mb-4 text-uppercase"><i class="fal fa-wheat fa-lg mt-4 mr-3"></i>Menu<i class="fal fa-wheat fa-lg ml-3"></i></h3>
           <hr class="accent my-5">
           </div>
-          <div class="card-columns">
+          <div class="card-columns" data-aos="fade-up" data-aos-duration="1500">
             <div class="card card-body">
               <div class="d-flex justify-content-between align-items-center">
                 <h3 class="text-truncate sliding-u-l-r-l">Pão Italiano</h3>
@@ -143,7 +143,7 @@
               <div class="container">
                 <div class="row justify-content-center py-5">
                   <div class="col-md-12">
-                    <div class="row">
+                    <div class="row" data-aos="fade-up" data-aos-duration="1500">
                       <div class="col-md-4 d-flex justify-content-center counter-wrap animate">
                         <div class="block-18 text-center">
                           <div class="text">
@@ -175,7 +175,7 @@
               </section>
               <!-- Section - Atendimento -->
               <section class="catAtendimento">
-                <div class="row">
+                <div class="row" data-aos="fade-up" data-aos-duration="1500">
                   <div class="col-lg-6 w-100 my-auto mb-4 text-center text-lg-left">
                     <h3>Das nossas mão para sua mesa!</h3>          
                     <p>Peça também pelo <a href="#">WhatsApp<i class="ic-wa fab fa-whatsapp fa-lg text-dark ml-2"></a></i></p>
