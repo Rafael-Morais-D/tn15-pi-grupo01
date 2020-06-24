@@ -190,7 +190,7 @@
               </section>
               <!-- Section - Atendimento -->
               <section class="catAtendimento">
-                <div class="row" data-aos="fade-up" data-aos-duration="1500">
+                <div class="row py-4" data-aos="fade-up" data-aos-duration="1500">
                   <div class="col-lg-6 w-100 my-auto mb-4 text-center text-lg-left">
                     <h3>Das nossas mão para sua mesa!</h3>          
                     <p>Peça também pelo <a href="#">WhatsApp<i class="ic-wa fab fa-whatsapp fa-lg text-dark ml-2"></a></i></p>
@@ -198,7 +198,7 @@
                     <p class="mb-0">Segunda—Segunda</p>
                     <p class="mb-5">10h às 18h</p>                    
                     </div>
-                    <div class="col-lg-6 order-lg-first mb-5">
+                    <div class="col-lg-6 order-lg-first">
                       <img class="img-fluid" src="./assets/img/07_bakeandgo.jpg" alt="">
                     </div>
                   </div>
