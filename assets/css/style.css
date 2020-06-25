@@ -346,6 +346,7 @@ nav.nav-adm a {
     }
 }
 
+
 .error {
   padding: 12rem;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 90%, #000000 100%), url('../img/404.jpg')!important;
