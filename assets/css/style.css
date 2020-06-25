@@ -72,6 +72,76 @@ img.logo-header {
   font-size: 1rem;
 }
 
+.sliding-u-l-r-l {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0.5em;
+  cursor: default;
+}
+.sliding-u-l-r-l:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  transition: width 0s ease, background .5s ease;
+}
+.sliding-u-l-r-l:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background: #8f793c;
+  transition: width .5s ease;
+}
+.sliding-u-l-r-l:hover:before {
+  width: 100%;
+  background: #8f793c;
+  transition: width .5s ease;
+}
+.sliding-u-l-r-l:hover:after {
+  width: 100%;
+  background: transparent;
+  transition: all 0s ease;
+}
+
+.quem-somos-banner {
+  text-align: center;
+  height: 40vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 90%, #000000 100%), url('../img/09_bakeandgo.jpg')!important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+  border-radius: 0;
+}
+
+.quem-somos-banner h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-top: 55px;
+}
+
+.quem-somos p {
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+.quem-somos h2 {
+  font-size: 1.2em;
+}
+
+.mensagem {
+  min-height: 100%;
+  height: 439px;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -80,6 +150,10 @@ img.logo-header {
 
 .card-columns {
   column-count: 2;
+}
+
+.card-columns h4{
+  font-size: 0.9em;
 }
 
 section.btn {
@@ -105,10 +179,49 @@ section.btn {
   border: 1px solid #000;
 }
 
+.hvr-icon-basket {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-icon-basket:hover .hvr-icon, .hvr-icon-basket:focus .hvr-icon, .hvr-icon-basket:active .hvr-icon {
+  color: #8f793c;
+  -webkit-animation-name: hvr-icon-basket;
+  animation-name: hvr-icon-basket;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+@-webkit-keyframes hvr-icon-basket {
+  50% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+}
+@keyframes hvr-icon-basket {
+  50% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+}
+
 .catProdutos h3 {
   font-family: 'GTAmerica-ExtendedMedium', 'Courier New', Courier, monospace;
   font-size: 0.9em;
   letter-spacing: 0.1em;
+}
+@media (min-width: 300px) and (max-width: 574.98px) {
+  .catProdutos h3 {
+    font-family: 'GTAmerica-ExtendedMedium', 'Courier New', Courier, monospace;
+    font-size: 0.75em;
+    letter-spacing: 0.1em;
+  }
 }
 
 .menuProdutos h3 {
@@ -119,6 +232,41 @@ section.btn {
 
 .menuProdutos span, label, select {
   font-size: 0.85em;
+}
+
+#section-counter {
+  position: relative;
+  z-index: 0;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 90%, #000000 100%), url('../img/08_bakeandgo.jpg')!important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-x: center;
+}
+.counter-section {
+  padding: 5em 0;
+}
+.counter-section .text strong.number {
+  font-size: 1.9em;
+  color: #fff;
+}
+.counter-section .text span {
+  display: block;
+  font-size: 0.9em;
+  color: #fff;
+  text-transform: uppercase;
+}
+@media (max-width: 767.98px) {
+  .counter-section .counter-wrap {
+  font-size: 0.9em;;
+  margin-bottom: 2em;
+  }
+}
+.counter-section .number {
+  display: block;
+}
+.counter-section {
+  text-transform: uppercase;
 }
 
 .catAtendimento a {
@@ -135,6 +283,12 @@ section.btn {
 
 .ic-basket:hover {
   color: #8f793c;
+}
+
+.table { 
+  width: 100%; 
+  display: table;
+  border-collapse: collapse; 
 }
 
 @font-face {
@@ -159,6 +313,10 @@ section.btn {
        url('../fonts/GTAmerica-ExtendedMedium.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
+}
+
+.mapa h3 {
+  font-size: 1.2em;
 }
 
 .page-footer {
@@ -238,7 +396,7 @@ img.logo-footer {
 nav.nav-adm {
   top: 59.17px!important;
   z-index: 1050;
-  max-width: 60vw!important;
+  max-width: 70vw!important;
   border-radius: 0 0 20px 20px;
   background-color: #8f793c!important;
 }
@@ -287,6 +445,11 @@ nav.nav-adm a {
   img.logo-footer {
     max-width: 300px;
   }
+
+  .quem-somos-banner h2 {
+    font-size: 3rem;
+    margin-top: 90px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -331,21 +494,6 @@ nav.nav-adm a {
     flex-direction: column;
     }
 }
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .card-columns {
-    display: flex;
-    flex-direction: column;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .card-columns {
-    display: flex;
-    flex-direction: column;
-    }
-}
-
 
 .error {
   padding: 12rem;

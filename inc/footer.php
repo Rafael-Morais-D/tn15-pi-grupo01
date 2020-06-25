@@ -7,16 +7,16 @@
                 <div class="col-12 mb-5 text-center">
                     <div style="font-size: 1.1rem;">
                     <a href="#" class="fb-ic ">
-                        <i class="fab fa-facebook-f fa-lg text-white mr-3 ml-3"> </i>
+                        <i class="fab fa-facebook-f fa-lg text-white mr-2 ml-2 mr-md-3 ml-md-3"> </i>
                     </a>
                     <a href="#" class="tw-ic ">
-                        <i class="fab fa-twitter fa-lg text-white mr-3 ml-3"> </i>
+                        <i class="fab fa-twitter fa-lg text-white mr-2 ml-2 mr-md-3 ml-md-3"> </i>
                     </a>
                     <a href="#" class="ins-ic">
-                        <i class="fab fa-instagram fa-lg text-white mr-3 ml-3"> </i>
+                        <i class="fab fa-instagram fa-lg text-white mr-2 ml-2 mr-md-3 ml-md-3"> </i>
                     </a>
                     <a href="#" class="wa-ic">
-                        <i class="fab fa-whatsapp fa-lg text-white mr-3 ml-3"> </i>
+                        <i class="fab fa-whatsapp fa-lg text-white mr-2 ml-2 mr-md-3 ml-md-3"> </i>
                     </a>
                 </div>
                 </div>
@@ -28,13 +28,13 @@
                         <a href="index.php">Home</a>
                     </li>
                     <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3 text-uppercase">
-                        <a href="#">Quem somos</a>
+                        <a href="quem-somos.php">Quem somos</a>
                     </li>
                     <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3 text-uppercase">
                         <a href="#">Menu</a>
                     </li>
                     <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3 text-uppercase">
-                        <a href="#">Contato</a>
+                        <a href="contato.php">Contato</a>
                     </li>    
                 </ul>            
             </div>
@@ -42,7 +42,7 @@
                 <!-- LOGO -->
                 <img class="logo-footer" src="./assets/img/bakeandgo_logo_01_white.svg" alt="Logo Bake & Go">
             </div>
-            <div class="col-12 d-flex flex-row flex-wrap justify-content-center justify-content-md-between">
+            <div class="col-12 d-flex flex-row flex-wrap justify-content-center justify-content-md-between px-1">
                 <!-- INFORMAÇÕES LEGAIS -->
                 <div class="d-inline text-center mr-sm-2 text-white">
                     &copy; 2020 Bake & Go | CNPJ 01.012.012/0001-99
@@ -101,5 +101,7 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>AOS.init();</script>
 </body>
 </html>
