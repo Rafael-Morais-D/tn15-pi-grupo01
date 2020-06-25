@@ -31,7 +31,7 @@
                             </td>
                             <td scope="row">
                             <select class="custom-select">
-                                    <option value="1">Prepadando a massa</option>
+                                    <option value="1">Preparando a massa</option>
                                     <option value="2">No forno</option>
                                     <option value="3">Pronto para entrega</option>
                                 </select>
@@ -50,7 +50,7 @@
                             </td>
                             <td scope="row">
                             <select class="custom-select">
-                                    <option value="1">Prepadando a massa</option>
+                                    <option value="1">Preparando a massa</option>
                                     <option value="2">No forno</option>
                                     <option value="3">Pronto para entrega</option>
                                 </select>
@@ -69,7 +69,7 @@
                             </td>
                             <td scope="row">
                                 <select class="custom-select">
-                                    <option value="1">Prepadando a massa</option>
+                                    <option value="1">Preparando a massa</option>
                                     <option value="2">No forno</option>
                                     <option value="3">Pronto para entrega</option>
                                 </select>

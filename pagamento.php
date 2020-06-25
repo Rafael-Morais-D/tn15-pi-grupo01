@@ -70,15 +70,15 @@
 
             <!-- ENDEREÇO DE COBRANÇA -->
             <div class="card card-body mb-3">
-                <h3 class="col-12 text-center text-info py-3 text-dark">Endereço de cobrança</h3>
-                <p class="mb-3 text-center">Preencha os campos abaixo com os dados do endereço de cobrança</p>
+                <h3 class="col-12 text-center text-info py-3 text-dark">Endereço de entrega</h3>
+                <p class="mb-3 text-center">Preencha os campos abaixo com os dados do endereço de entrega/p>
                 <fieldset>
                     <div class="form-group has-error">
                         <input class="form-control input-lg" placeholder="Nome Completo" name="nome" type="text">
                     </div>
                     <div class="form-row flex-wrap">
                         <div class="form-group has-error col-12 col-md-6">
-                            <input type="text" class="form-control" placeholder="E-mail de cobrança" aria-describedby="emailHelp" id="inputEmail" name="inputEmail" required>
+                            <input type="text" class="form-control" placeholder="E-mail" aria-describedby="emailHelp" id="inputEmail" name="inputEmail" required>
                         </div>
                         <div class="form-group has-error col-12 col-md-6">
                             <input type="text" class="form-control" placeholder="CPF" aria-describedby="cpfHelp" id="inputCPF" name="inputCPF" required>
