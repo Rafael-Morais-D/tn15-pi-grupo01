@@ -273,7 +273,11 @@ section.btn {
   color: #8f793c!important;
 }
 
-.perfil a:hover {
+.email-mensagem a {
+  color: #000;
+}
+
+.email-mensagem a:hover {
   color: #8f793c;
 }
 

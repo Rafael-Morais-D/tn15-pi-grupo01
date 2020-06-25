@@ -20,7 +20,7 @@
                     <td scope="row">001</td>
                     <td scope="row">Pães</td>
                     <td>
-                        <a href="#">
+                        <a href="#" data-toggle="modal" data-target="#modalCategoria">
                             <i class="fas fa-pencil text-dark"></i>
                         </a>
                     </td>
@@ -34,7 +34,7 @@
                     <td scope="row">002</td>
                     <td scope="row">Bolos</td>
                     <td>
-                        <a href="#">
+                        <a href="#" data-toggle="modal" data-target="#modalCategoria">
                             <i class="fas fa-pencil text-dark"></i>
                         </a>
                     </td>
@@ -48,7 +48,7 @@
                     <td scope="row">003</td>
                     <td scope="row">Salgados</td>
                     <td>
-                        <a href="#">
+                        <a href="#" data-toggle="modal" data-target="#modalCategoria">
                             <i class="fas fa-pencil text-dark"></i>
                         </a>
                     </td>
@@ -60,6 +60,43 @@
                 </tr>
             </tbody>
         </table>
+        <!-- Modal - Editar categoria -->
+        <div class="modal fade" id="modalCategoria" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Editar categoria</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <br>
+                <form class="container">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputID">ID</label>
+                            <input type="number" class="form-control" placeholder="000"
+                                aria-describedby="adicionarID" id="inputID" name="inputID"
+                                required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputCategoria">Categoria</label>
+                            <select class="custom-select">
+                                <option value="1">Pães</option>
+                                <option value="2">Bolos</option>
+                                <option value="3">Salgados</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary">Editar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
         <!-- Modal - Excluir categoria -->
         <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
@@ -98,19 +135,28 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <br>
                     <form class="container">
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <input type="text" class="form-control" placeholder="Nome da Categoria"
-                                    aria-describedby="adicionarProdutoHelp" id="inputProduto" name="inputProduto"
-                                    required>
-                            </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputID">ID</label>
+                            <input type="number" class="form-control" placeholder="000"
+                                aria-describedby="adicionarID" id="inputID" name="inputID"
+                                required>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary mb-0">Adicionar</button>
-                            <button type="button" class="btn btn-secondary mb-0" data-dismiss="modal">Cancelar</button>
+                        <div class="form-group col-md-6">
+                            <label for="inputCategoria">Categoria</label>
+                            <select class="custom-select">
+                                <option value="1">Pães</option>
+                                <option value="2">Bolos</option>
+                                <option value="3">Salgados</option>
+                            </select>
                         </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary">Adicionar</button>
+                    </div>
+                </form>
                 </div>
             </div>
         </div>

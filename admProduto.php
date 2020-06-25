@@ -9,9 +9,10 @@
         <table class="table table-bordered table-hover text-center">
             <thead>
                 <tr>
-                    <th scope="col">ID</th>
+                    <th scope="col">REF</th>
                     <th scope="col">Produto</th>
-                    <th scope="col">Preço (BRL)</th>
+                    <th scope="col">Descrição</th>
+                    <th scope="col">Preço</th>
                     <th scope="col">Categoria</th>
                     <th scope="col">Editar</th>
                     <th scope="col">Excluir</th>
@@ -19,12 +20,13 @@
             </thead>
             <tbody>
                 <tr>
-                    <td scope="row">001</td>
+                    <td scope="row">001PAOITA</td>
                     <td scope="row">Pão Italiano</td>
+                    <td scope="row">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatibus iusto vero corrupti. Rerum, earum? Facilis nulla dicta, fugit laboriosam, dolor voluptas natus eum esse, dolores officia illum quibusdam inventore.</td>
                     <td scope="row">12</td>
                     <td scope="row">Pães</td>
                     <td>
-                        <a href="#">
+                        <a href="#" data-toggle="modal" data-target="#modalAddProduto">
                             <i class="fas fa-pencil text-dark"></i>
                         </a>
                     </td>
@@ -35,12 +37,13 @@
                     </td>
                 </tr>
                 <tr>
-                    <td scope="row">002</td>
+                    <td scope="row">002BLCHOCO</td>
                     <td scope="row">Bolo de Chocolate</td>
-                    <td scope="row">25</td>
+                    <td scope="row">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatibus iusto vero corrupti. Rerum, earum? Facilis nulla dicta, fugit laboriosam, dolor voluptas natus eum esse, dolores officia illum quibusdam inventore.</td>
+                    <td scope="row">12</td>
                     <td scope="row">Bolos</td>
                     <td>
-                        <a href="#">
+                        <a href="#" data-toggle="modal" data-target="#modalAddProduto">
                             <i class="fas fa-pencil text-dark"></i>
                         </a>
                     </td>
@@ -50,24 +53,74 @@
                         </a>
                     </td>
                 </tr>
-                <tr>
-                    <td scope="row">003</td>
-                    <td scope="row">Croissant</td>
-                    <td scope="row">10</td>
-                    <td scope="row">Pães</td>
-                    <td>
-                        <a href="#">
-                            <i class="fas fa-pencil text-dark"></i>
-                        </a>
-                    </td>
-                    <td>
-                        <a href="#" data-toggle="modal" data-target="#modal">
-                            <i class="fas fa-trash text-dark"></i>
-                        </a>
-                    </td>
-                </tr>
+
             </tbody>
         </table>
+        <!-- Modal - Editar produto -->
+        <div class="modal fade" id="modalAddProduto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Editar produto</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <br>
+                <form class="container">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="uploadImg">Imagem</label>
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="customFileLang" lang="pt">
+                                <label class="custom-file-label" for="customFileLang">Esolher imagem</label>
+                            </div>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputNomeProduto">Produto</label>
+                            <input type="text" class="form-control" placeholder="Nome do produto"
+                                aria-describedby="adicionarProdutoHelp" id="inputNomeProduto" name="inputNomeProduto"
+                                required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCategoria">Categoria</label>
+                            <select class="custom-select">
+                                <option value="1">Pães</option>
+                                <option value="2">Bolos</option>
+                                <option value="3">Cafés</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPreco">Preço</label>
+                            <input type="number" class="form-control" placeholder="Preço do produto"
+                                aria-describedby="adicionarProdutoHelp" id="inputPreco" name="inputPreco"
+                                required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputID">REF</label>
+                            <input type="text" class="form-control" placeholder="001NOME"
+                                aria-describedby="adicionarID" id="inputID" name="inputID"
+                                required>
+                        </div>
+                        <div class="form-group col-md-6">
+
+                        <label for="inputDescricao">Descrição</label>
+                            <input type="text" class="form-control" placeholder="Descrição do produto"
+                                aria-describedby="adicionarDescricao" id="inputDescricao" name="inputDescricao"
+                                required>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary">Editar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
         <!-- Modal - Excluir produto -->
         <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
@@ -95,53 +148,71 @@
             <a href="#" data-toggle="modal" data-target="#modalAdd">
                 <i class="far fa-plus-square text-dark"></i>
             </a></p>
-        <!-- Modal - Adicione um produto -->
+        <!-- Modal - Adicionar produto -->
         <div class="modal fade" id="modalAdd" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Adicione um produto</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <br>
-                    <form class="container">
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <input type="text" class="form-control" placeholder="Nome do Produto"
-                                    aria-describedby="adicionarProdutoHelp" id="inputProduto" name="inputProduto"
-                                    required>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <label for="inputEmail">Categoria</label>
-                                <select class="custom-select">
-                                    <option value="1">Pães</option>
-                                    <option value="2">Bolos</option>
-                                </select>
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="inputSobrenome">Preço</label>
-                                <input type="number" class="form-control" placeholder="R$"
-                                    aria-describedby="adicionarProdutoHelp" id="inputProduto" name="inputProduto"
-                                    required>
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="staticID">ID</label>
-                                <input type="text" readonly class="form-control-plaintext" placeholder="000"
-                                    aria-describedby="assuntoHelp" id="inputID" name="inputID">
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary mb-0" data-dismiss="modal">Cancelar</button>
-                            <button type="button" class="btn btn-primary mb-0">Adicionar</button>
-                        </div>
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Adicionar produto</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
+                <br>
+                <form class="container">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="uploadImg">Imagem</label>
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="customFileLang" lang="pt">
+                                <label class="custom-file-label" for="customFileLang">Esolher imagem</label>
+                            </div>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputNomeProduto">Produto</label>
+                            <input type="text" class="form-control" placeholder="Nome do produto"
+                                aria-describedby="adicionarProdutoHelp" id="inputNomeProduto" name="inputNomeProduto"
+                                required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCategoria">Categoria</label>
+                            <select class="custom-select">
+                                <option value="1">Pães</option>
+                                <option value="2">Bolos</option>
+                                <option value="3">Cafés</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPreco">Preço</label>
+                            <input type="number" class="form-control" placeholder="Preço do produto"
+                                aria-describedby="adicionarProdutoHelp" id="inputPreco" name="inputPreco"
+                                required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputID">REF</label>
+                            <input type="text" class="form-control" placeholder="001NOME"
+                                aria-describedby="adicionarID" id="inputID" name="inputID"
+                                required>
+                        </div>
+                        <div class="form-group col-md-6">
+
+                        <label for="inputDescricao">Descrição</label>
+                            <input type="text" class="form-control" placeholder="Descrição do produto"
+                                aria-describedby="adicionarDescricao" id="inputDescricao" name="inputDescricao"
+                                required>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary">Adicionar</button>
+                    </div>
+                </form>
             </div>
         </div>
+    </div>
 </main>
 
 <?php require_once("./inc/footer-adm.php"); ?>
