@@ -135,7 +135,7 @@
                             </select>
                         </div>
                     </div>
-                    <div class="form-row">
+                    <div>
                         <textarea class="form-control" placeholder="Observações (ex.: deixar na portaria)" name="observacaoPedido" id="observacaoPedido" rows="3" aria-describedby="#observacaoPedidoHelp"></textarea>
                     </div>
                 </fieldset>

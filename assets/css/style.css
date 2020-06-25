@@ -291,6 +291,11 @@ section.btn {
   border-collapse: collapse; 
 }
 
+.table thead th {
+  vertical-align: middle;
+  border-bottom: 2px solid #dee2e6;
+}
+
 @font-face {
   font-family: 'GTAmericaMono-Regular';
   src: url('../fonts/GTAmericaMono-Regular.eot');
@@ -339,6 +344,11 @@ section.btn {
   font-size: 1em;
   color: #fff;
   text-decoration: none;
+}
+
+.footer-link a:hover {
+  color: rgb(212, 156, 2)!important;
+  transition: all ease-in-out 0.4s;
 }
 
 .fb-ic:hover i::before {

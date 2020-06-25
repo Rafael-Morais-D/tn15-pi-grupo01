@@ -2,8 +2,8 @@
 <?php require_once("./inc/head.php"); ?>
 <?php require_once("./inc/header.php"); ?>
 
-<main class="container pt-4 px-0">
-    <h2 class="text-center">Contato</h2>
+<main class="container py-4">
+    <h2 class="text-center mt-5">Contato</h2>
     <div class="row my-0 mx-3 mt-md-5">
 
         <!-- CAMPO DE MENSAGEM -->
@@ -19,7 +19,7 @@
                             <div class="form-group has-error">
                                 <input class="form-control input-lg" placeholder="Email" name="email" type="text">
                             </div>
-                            <div class="form-row">
+                            <div>
                                 <textarea class="form-control" placeholder="Escreva aqui sua mensagem." name="contatoTexto" id="contatoTexto" rows="7" aria-describedby="#contatoTextoHelp"></textarea>
                             </div>
                             <input class="btn btn-md btn-primary btn-block mt-4 mb-2" value="Enviar" type="submit">

@@ -6,16 +6,16 @@
                 <!-- REDES SOCIAIS -->
                 <div class="col-12 mb-5 text-center">
                     <div style="font-size: 1.1rem;">
-                    <a href="#" class="fb-ic ">
+                    <a href="#" target="_blank" title="Curta nossa página no Facebook" class="fb-ic ">
                         <i class="fab fa-facebook-f fa-lg text-white mr-2 ml-2 mr-md-3 ml-md-3"> </i>
                     </a>
-                    <a href="#" class="tw-ic ">
+                    <a href="#" target="_blank" title="Siga nosso perfil no Twitter" class="tw-ic ">
                         <i class="fab fa-twitter fa-lg text-white mr-2 ml-2 mr-md-3 ml-md-3"> </i>
                     </a>
-                    <a href="#" class="ins-ic">
+                    <a href="#" target="_blank" title="Siga nosso perfil no Instagram" class="ins-ic">
                         <i class="fab fa-instagram fa-lg text-white mr-2 ml-2 mr-md-3 ml-md-3"> </i>
                     </a>
-                    <a href="#" class="wa-ic">
+                    <a href="#" target="_blank" title="Envie uma mensagem no WhatsApp" class="wa-ic">
                         <i class="fab fa-whatsapp fa-lg text-white mr-2 ml-2 mr-md-3 ml-md-3"> </i>
                     </a>
                 </div>
@@ -24,17 +24,17 @@
             <div class="col-12 mb-4 text-center footer-link">
                 <!-- REDIRECIONAMENTOS -->
                 <ul>
-                    <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3 text-uppercase">
-                        <a href="index.php">Home</a>
+                    <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3 text-uppercase home-footer">
+                        <a href="index.php" title="Página Inicial">Home</a>
+                    </li>
+                    <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3 text-uppercase qs-footer">
+                        <a href="quem-somos.php" title="Conheça nossa história">Quem somos</a>
                     </li>
                     <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3 text-uppercase">
-                        <a href="quem-somos.php">Quem somos</a>
+                        <a href="#" title="Conheça nossos produtos">Menu</a>
                     </li>
                     <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3 text-uppercase">
-                        <a href="#">Menu</a>
-                    </li>
-                    <li class="d-inline mr-1 ml-1 mr-md-3 mr-1 ml-1 ml-md-3 text-uppercase">
-                        <a href="contato.php">Contato</a>
+                        <a href="contato.php" title="Entre em contato">Contato</a>
                     </li>    
                 </ul>            
             </div>
@@ -48,7 +48,7 @@
                     &copy; 2020 Bake & Go | CNPJ 01.012.012/0001-99
                 </div>
                 <div class="d-inline text-center ml-sm-2 text-white footer-link">
-                    <a href="#" title="Políticas de Privacidade" data-toggle="modal" data-target="#politicasPriv">Políticas de Privacidade</a> | <a href="#" title="Termos de uso" data-toggle="modal" data-target="#termosDeUso">Termos de uso</a>
+                    <a href="#" title="Políticas de Privacidade" data-toggle="modal" data-target="#politicasPriv">Políticas de Privacidade</a> | <a href="#" title="Termos de Uso" data-toggle="modal" data-target="#termosDeUso">Termos de Uso</a>
                 </div>
             </div>
         </div>

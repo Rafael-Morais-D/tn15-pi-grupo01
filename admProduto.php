@@ -136,8 +136,8 @@
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary mb-0">Adicionar</button>
                             <button type="button" class="btn btn-secondary mb-0" data-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary mb-0">Adicionar</button>
                         </div>
                 </div>
             </div>

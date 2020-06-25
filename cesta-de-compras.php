@@ -4,7 +4,7 @@
 
 <main class="container-fluid py-5 mt-5">
         <header class="topo-pagina" id="topoCarrinho">
-            <h2 class="p-1">Cesta de Compras</h2>
+            <h2 class="col-12 text-center py-4">Cesta de Compras</h2>
         </header>
         <section class="container">
             <div class="row-cesta mr-2 ml-2">
@@ -24,7 +24,7 @@
                             <tr>
                                 <td colspan="2">
                                     <div class="d-flex align-items-start justify-content-start flex-column flex-lg-row">
-                                        <img src="./assets/img/03_bakeandgo.jpg" alt="Produto 04" width="100" height="auto">
+                                        <img src="./assets/img/03_bakeandgo.jpg" alt="Produto 04" width="85px" height="auto">
                                         <div class="text-left mx-0 mx-md-3">
                                             <h5 class="my-0"><span class="cart-qtd">1</span> Pão Italiano</h5>
                                             <small class="text-muted my-0">REF: 001PAOITA</small>
@@ -35,7 +35,7 @@
                                 <td class="cart-subtotal-price">R$12</td>
                                 <td>
                                     <a href="#" class="ml-3" data-toggle="modal" data-target="#modalProduto01"><i class="fas fa-pencil text-dark"></i></a>
-                                    <a href="#" class="ml-3"><i class="fas fa-times text-dark"></i></a>
+                                    <a href="#" data-toggle="modal" data-target="#modal"><i class="fas fa-trash text-dark"></i>
                                 </td>
                                 <!-- Modal Produto 01 -->
                                 <div class="modal fade mt-5" id="modalProduto01" tabindex="-1" role="dialog" aria-labelledby="modalProduto01Label" aria-hidden="true">
@@ -61,15 +61,38 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
                                 <!-- /Modal Produto 01 -->
+                                <!-- Modal - Excluir Produto 01 -->
+                                <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title">Excluir produto</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Deseja realmente excluir da cesta de compras?</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary mb-0" data-dismiss="modal">Cancelar</button>
+                                                <a href="#">
+                                                    <button type="button" class="btn btn-danger mb-0">Excluir</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /Modal - Excluir Produto 01 -->
                             </tr>
                             <tr>
                                 <td colspan="2">
                                     <div class="d-flex align-items-start justify-content-start flex-column flex-lg-row">
-                                        <img src="./assets/img/05_bakeandgo.jpg" alt="Produto 04" width="100" height="auto">
+                                        <img src="./assets/img/05_bakeandgo.jpg" alt="Produto 04" width="85px" height="auto">
                                         <div class="text-left mx-0 mx-md-3">
                                             <h5 class="my-0"><span class="cart-qtd">2</span> Bolo de Chocolate com Cobertura de Chocolate</h5>
                                             <small class="text-muted my-0">REF: 002BLCHOCO</small>
@@ -80,14 +103,14 @@
                                 <td class="cart-subtotal-price">R$25</td>
                                 <td>
                                     <a href="#" class="ml-3" data-toggle="modal" data-target="#modalProduto01"><i class="fas fa-pencil text-dark"></i></a>
-                                    <a href="#" class="ml-3"><i class="fas fa-times text-dark"></i></a>
+                                    <a href="#" data-toggle="modal" data-target="#modal"><i class="fas fa-trash text-dark"></i>
                                 </td>
                                 <!-- Modal Produto 02 -->
                                 <div class="modal fade mt-5" id="modalProduto01" tabindex="-1" role="dialog" aria-labelledby="modalProduto01Label" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h5 class="modal-title" id="modalProduto01Label">Item 01</h5>
+                                                <h5 class="modal-title" id="modalProduto01Label">Item 02</h5>
                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                     <span aria-hidden="true">&times;</span>
                                                 </button>
@@ -106,12 +129,34 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
                                 <!-- /Modal Produto 02 -->
+                                <!-- Modal - Excluir Produto 02 -->
+                                <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title">Excluir produto</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Deseja realmente excluir da cesta de compras?</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary mb-0" data-dismiss="modal">Cancelar</button>
+                                                <a href="#">
+                                                    <button type="button" class="btn btn-danger mb-0">Excluir</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /Modal - Excluir Produto 02 -->
                             </tr>
-
                         </tbody>
                     </table>
                         <div class="form-group d-inline-block">
