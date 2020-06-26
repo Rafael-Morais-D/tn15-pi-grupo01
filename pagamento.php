@@ -4,7 +4,7 @@
 
     <main class="container-fluid py-5 mt-5">
         <header class="topo-pagina" id="topoCarrinho">
-            <h2 class="p-1 mb-5">Pagamento</h2>
+            <h2 class="py-4 text-center">Pagamento</h2>
         </header>
         <section class="container">
 
@@ -71,7 +71,7 @@
             <!-- ENDEREÇO DE COBRANÇA -->
             <div class="card card-body mb-3">
                 <h3 class="col-12 text-center text-info py-3 text-dark">Endereço de entrega</h3>
-                <p class="mb-3 text-center">Preencha os campos abaixo com os dados do endereço de entrega/p>
+                <p class="mb-3 text-center">Preencha os campos abaixo com os dados do endereço de entrega</p>
                 <fieldset>
                     <div class="form-group has-error">
                         <input class="form-control input-lg" placeholder="Nome Completo" name="nome" type="text">

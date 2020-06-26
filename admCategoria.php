@@ -67,9 +67,6 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h3 class="modal-title">Editar categoria</h3>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
                 </div>
                 <br>
                 <form class="container">
@@ -104,9 +101,6 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title">Excluir categoria</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
                     </div>
                     <div class="modal-body">
                         <p>Deseja realmente excluir esta categoria?</p>
@@ -131,9 +125,6 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title">Adicionar categoria</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
                     </div>
                     <form class="container">
                     <div class="form-row">

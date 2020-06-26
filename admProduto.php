@@ -40,7 +40,7 @@
                     <td scope="row">002BLCHOCO</td>
                     <td scope="row">Bolo de Chocolate</td>
                     <td scope="row">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatibus iusto vero corrupti. Rerum, earum? Facilis nulla dicta, fugit laboriosam, dolor voluptas natus eum esse, dolores officia illum quibusdam inventore.</td>
-                    <td scope="row">12</td>
+                    <td scope="row">25</td>
                     <td scope="row">Bolos</td>
                     <td>
                         <a href="#" data-toggle="modal" data-target="#modalAddProduto">
@@ -63,9 +63,6 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h3 class="modal-title">Editar produto</h3>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
                 </div>
                 <br>
                 <form class="container">
@@ -74,7 +71,7 @@
                             <label for="uploadImg">Imagem</label>
                             <div class="custom-file">
                                 <input type="file" class="custom-file-input" id="customFileLang" lang="pt">
-                                <label class="custom-file-label" for="customFileLang">Esolher imagem</label>
+                                <label class="custom-file-label" for="customFileLang">Escolher imagem</label>
                             </div>
                         </div>
                         <div class="form-group col-md-6">
@@ -128,9 +125,6 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title">Excluir produto</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
                     </div>
                     <div class="modal-body">
                         <p>Deseja realmente excluir este produto?</p>
@@ -155,9 +149,6 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h3 class="modal-title">Adicionar produto</h3>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
                 </div>
                 <br>
                 <form class="container">
@@ -166,7 +157,7 @@
                             <label for="uploadImg">Imagem</label>
                             <div class="custom-file">
                                 <input type="file" class="custom-file-input" id="customFileLang" lang="pt">
-                                <label class="custom-file-label" for="customFileLang">Esolher imagem</label>
+                                <label class="custom-file-label" for="customFileLang">Escolher imagem</label>
                             </div>
                         </div>
                         <div class="form-group col-md-6">

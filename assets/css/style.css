@@ -16,6 +16,12 @@ body {
   color: #faf8f3;
 }
 
+input:focus, textarea:focus, select:focus, .nav-link:focus {   
+  border-color: #8f793c!important;
+  box-shadow: 0 1px 1px rgba(199, 146, 0, 0.87) inset, 0 0 5px rgba(199, 146, 0, 0.87)!important;
+  outline: 0 none !important;
+}
+
 a {
   color: #8f793c;
   text-decoration: none;
