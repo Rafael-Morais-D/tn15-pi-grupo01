@@ -20,7 +20,7 @@
       <div class="col-lg-6 w-100 my-auto text-center text-lg-right">
         <h2>Pão Italiano</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
-        <a href="./cesta-de-compras.php" class="btn hvr-icon-basket">Add a Cesta <i class="fa fa-shopping-basket hvr-icon"></i></a>
+        <a href="./cesta-de-compras.php" class="btn hvr-icon-basket mb-4">Add a Cesta <i class="fa fa-shopping-basket hvr-icon"></i></a>
       </div>
       <div class="col-lg-5 col-md mx-auto">
         <img class="img-fluid" src="./assets/img/03_bakeandgo.jpg" alt="">
@@ -30,7 +30,7 @@
       <div class="col-lg-6 w-100 my-auto text-center text-lg-left">
         <h2>Bolo de Chocolate com cobertura de Chocolate</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
-        <a href="./cesta-de-compras.php" class="btn hvr-icon-basket">Add a Cesta <i class="fa fa-shopping-basket hvr-icon"></i></a>
+        <a href="./cesta-de-compras.php" class="btn hvr-icon-basket mb-4">Add a Cesta <i class="fa fa-shopping-basket hvr-icon"></i></a>
         </div>
         <div class="col-lg-5 col-md mx-auto order-lg-first">
           <img class="img-fluid" src="./assets/img/05_bakeandgo.jpg" alt="">
@@ -67,7 +67,7 @@
                     <option value=10>10</option>
                   </select>
                   <span class="float-right">
-                    <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">Add a Cesta</a>
+                    <a href="./cesta-de-compras.php" class="btn btn-primary float-right">Add a Cesta</a>
                   </span>
                 </div>  
               </div>
@@ -92,7 +92,7 @@
                     <option value=10>10</option>
                   </select>
                   <span class="float-right">
-                    <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">Add a Cesta</a>
+                    <a href="./cesta-de-compras.php" class="btn btn-primary float-right">Add a Cesta</a>
                   </span>
                 </div>
               </div>
@@ -117,7 +117,7 @@
                     <option value=10>10</option>
                   </select>
                   <span class="float-right">
-                    <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">Add a Cesta</a>
+                    <a href="./cesta-de-compras.php" class="btn btn-primary float-right">Add a Cesta</a>
                   </span>
                   </div>
                 </div>
@@ -142,14 +142,14 @@
                       <option value=10>10</option>
                     </select>
                     <span class="float-right">
-                      <a href="./cesta-de-compras.php" class="btn btn-primary float-right mb-1">Add a Cesta</a>
+                      <a href="./cesta-de-compras.php" class="btn btn-primary float-right">Add a Cesta</a>
                     </span>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col-12 mt-5 mb-3 text-center">
-                <a href="#" class="btn btn-primary">VER MENU</a>
+                <a href="#" class="btn btn-primary mb-5">VER MENU</a>
               </div>
               </div>
               </section>

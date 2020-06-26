@@ -19,17 +19,17 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td scope="row">05/06/2020</td>
-                            <td scope="row">000</td>
-                            <td scope="row">Pão Italiano</td>
-                            <td scope="row">R$45</td>
-                            <td scope="row">
+                            <td scope="row" class="align-middle">05/06/2020</td>
+                            <td scope="row" class="align-middle">000</td>
+                            <td scope="row" class="align-middle">Pão Italiano</td>
+                            <td scope="row" class="align-middle">R$45</td>
+                            <td scope="row" class="align-middle">
                                 <select class="custom-select">
                                     <option value="1">Aguardando pagamento</option>
                                     <option value="2">Pago</option>
                                 </select>
                             </td>
-                            <td scope="row">
+                            <td scope="row" class="align-middle">
                             <select class="custom-select">
                                     <option value="1">Preparando a massa</option>
                                     <option value="2">No forno</option>
@@ -38,17 +38,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <td scope="row">05/06/2020</td>
-                            <td scope="row">001</td>
-                            <td scope="row">Bolo de Chocolate</td>
-                            <td scope="row">R$35</td>
-                            <td scope="row">
+                            <td scope="row" class="align-middle">05/06/2020</td>
+                            <td scope="row" class="align-middle">001</td>
+                            <td scope="row" class="align-middle">Bolo de Chocolate</td>
+                            <td scope="row" class="align-middle">R$35</td>
+                            <td scope="row" class="align-middle">
                                 <select class="custom-select">
                                     <option value="1">Aguardando pagamento</option>
                                     <option value="2">Pago</option>
                                 </select>
                             </td>
-                            <td scope="row">
+                            <td scope="row" class="align-middle">
                             <select class="custom-select">
                                     <option value="1">Preparando a massa</option>
                                     <option value="2">No forno</option>
@@ -57,17 +57,17 @@
                             </td>
                         </tr>
                         <tr>
-                        <td scope="row">05/06/2020</td>
-                            <td scope="row">002</td>
-                            <td scope="row">Pão de Queijo</td>
-                            <td scope="row">R$25</td>
-                            <td scope="row">
+                            <td scope="row" class="align-middle">05/06/2020</td>
+                            <td scope="row" class="align-middle">002</td>
+                            <td scope="row" class="align-middle">Pão de Queijo</td>
+                            <td scope="row" class="align-middle">R$25</td>
+                            <td scope="row" class="align-middle">
                                 <select class="custom-select">
                                     <option value="1">Aguardando pagamento</option>
                                     <option value="2">Pago</option>
                                 </select>
                             </td>
-                            <td scope="row">
+                            <td scope="row" class="align-middle">
                                 <select class="custom-select">
                                     <option value="1">Preparando a massa</option>
                                     <option value="2">No forno</option>

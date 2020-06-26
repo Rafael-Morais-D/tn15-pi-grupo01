@@ -166,7 +166,7 @@
                     </div>
                 </fieldset>
             </div>
-            <button type="submit" class="btn btn-info float-right col-lg-3 mt-3" form="pagamentoForm">Finalizar Compra</button>
+            <button type="submit" class="btn btn-info float-right col-lg-3 mt-3 mb-5" form="pagamentoForm">Finalizar Compra</button>
         </form>
         </section>
     </main>
