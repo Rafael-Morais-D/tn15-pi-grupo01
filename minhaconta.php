@@ -5,6 +5,7 @@
 
 <main class="container minha-conta py-5 mt-5">
     <h2 class="mb-5">Minha Conta</h2>
+    <hr class="accent my-5">
     <h3 class="mb-4">Exemplilson da Silva 1</h3>
     <p>Endereço: Av. Dr. Cardoso de Melo, 90
     <p>CEP:04548-000 Cidade: São Paulo/SP</p>

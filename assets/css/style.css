@@ -437,7 +437,18 @@ nav.nav-adm {
 
 nav.nav-adm a {
   color: #faf8f3!important;
-  
+}
+
+nav.nav-cliente {
+  top: 73.17px!important;
+  z-index: 0;
+  max-width: 45vw!important;
+  border-radius: 0 0 20px 20px;
+  background-color: #8f793c!important;
+}
+
+nav.nav-cliente a {
+  color: #faf8f3!important;
 }
 
 .btn-adm {
