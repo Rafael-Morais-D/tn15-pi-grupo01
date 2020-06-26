@@ -382,6 +382,16 @@ section.btn {
   color: #000;
 }
 
+.custom-control-input:checked~.custom-control-label::before {
+  color: #fff!important;
+  background-color: #8f793c!important;
+  border: none;
+}
+
+input.custom-control-input:focus {   
+  display: none;
+}
+
 .form-cadastro h3 {
   font-size: 1.2em;
 }
