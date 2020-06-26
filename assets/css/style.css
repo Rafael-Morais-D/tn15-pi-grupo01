@@ -329,6 +329,11 @@ section.btn {
   font-style: normal;
 }
 
+.minha-conta a {
+  color: #8f793c;
+  text-decoration: none;
+}
+
 .mapa h3 {
   font-size: 1.2em;
 }

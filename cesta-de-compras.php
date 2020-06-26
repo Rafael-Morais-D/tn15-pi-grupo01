@@ -42,10 +42,7 @@
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h5 class="modal-title" id="modalProduto01Label">Item 01</h5>
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
+                                                <h5 class="modal-title" id="modalProduto01Label">Adicionar</h5>
                                             </div>
                                             <div class="modal-body">
                                                 <div id="formProduto01Edit">
@@ -71,9 +68,6 @@
                                         <div class="modal-content">
                                             <div class="modal-header">
                                                 <h5 class="modal-title">Excluir produto</h5>
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
                                             </div>
                                             <div class="modal-body">
                                                 <p>Deseja realmente excluir da cesta de compras?</p>

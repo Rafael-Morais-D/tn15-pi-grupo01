@@ -33,9 +33,10 @@
                             </td>
                             <td scope="row" class="align-middle">
                             <select class="custom-select">
-                                    <option value="1">Preparando a massa</option>
-                                    <option value="2">No forno</option>
-                                    <option value="3">Pronto para entrega</option>
+                                <option value="1">Aguardando confirmação</option>
+                                <option value="1">Preparando a massa</option>
+                                <option value="2">No forno</option>
+                                <option value="3">Pronto para entrega</option>
                                 </select>
                             </td>
                         </tr>
@@ -53,9 +54,10 @@
                             </td>
                             <td scope="row" class="align-middle">
                             <select class="custom-select">
-                                    <option value="1">Preparando a massa</option>
-                                    <option value="2">No forno</option>
-                                    <option value="3">Pronto para entrega</option>
+                                <option value="1">Aguardando confirmação</option>
+                                <option value="1">Preparando a massa</option>
+                                <option value="2">No forno</option>
+                                <option value="3">Pronto para entrega</option>
                                 </select>
                             </td>
                         </tr>
@@ -73,9 +75,10 @@
                             </td>
                             <td scope="row" class="align-middle">
                                 <select class="custom-select">
-                                    <option value="1">Preparando a massa</option>
-                                    <option value="2">No forno</option>
-                                    <option value="3">Pronto para entrega</option>
+                                    <option value="1">Aguardando confirmação</option>
+                                    <option value="2">Preparando a massa</option>
+                                    <option value="3">No forno</option>
+                                    <option value="4">Pronto para entrega</option>
                                 </select>
                             </td>
                         </tr>

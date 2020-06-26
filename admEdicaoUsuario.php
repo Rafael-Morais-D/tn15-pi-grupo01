@@ -5,7 +5,7 @@
 <!-- Form - Cadastro -->
 <div class="container-fluid py-5 mt-5">
         <div class="form-cadastro">
-            <div class="col-md-6 mx-auto">
+            <div class="col-lg-6 mx-auto">
                     <div class="card card-body">
                         <h3 class="text-center mb-4">Editar meu perfil</h3>
                         <fieldset>
