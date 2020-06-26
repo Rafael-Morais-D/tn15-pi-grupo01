@@ -329,9 +329,13 @@ section.btn {
   font-style: normal;
 }
 
-.minha-conta a {
-  color: #8f793c;
-  text-decoration: none;
+.minha-conta h3 {
+  font-size: 1.2em;
+}
+
+.form-control:disabled, .form-control[readonly] {
+  background-color: #faf8f3;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .mapa h3 {
