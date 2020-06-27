@@ -25,9 +25,9 @@
                         <tr>
                             <td colspan="2">
                                 <div class="d-flex align-items-start justify-content-start flex-column flex-lg-row">
-                                    <img src="./assets/img/03_bakeandgo.jpg" alt="Produto 04" width="100" height="auto">
-                                    <div class="text-left mx-0 mx-md-3">
-                                        <h5 class="my-0"><span class="cart-qtd">1</span> Pão Italiano</h5>
+                                    <img src="./assets/img/03_bakeandgo.jpg" alt="Produto 04" width="85px" height="auto" class="mr-3">
+                                    <div class="text-left">
+                                        <h5 class="my-1"><span class="cart-qtd">1</span> Pão Italiano</h5>
                                         <small class="text-muted my-0">REF: 001PAOITA</small>
                                     </div>
                                 </div>
@@ -37,10 +37,10 @@
                         <tr>
                             <td colspan="2">
                                 <div class="d-flex align-items-start justify-content-start flex-column flex-lg-row">
-                                    <img src="./assets/img/05_bakeandgo.jpg" alt="Produto 04" width="100" height="auto">
-                                    <div class="text-left mx-0 mx-md-3">
-                                        <h5 class="my-0"><span class="cart-qtd">2</span> Bolo de Chocolate com Cobertura de Chocolate</h5>
-                                        <small class="text-muted my-0">REF: 002BLCHOCO</small>
+                                    <img src="./assets/img/05_bakeandgo.jpg" alt="Produto 04" width="85px" height="auto" class="mr-3">
+                                    <div class="text-left">
+                                        <h5 class="my-1"><span class="cart-qtd">2</span> Bolo de Chocolate com frutas vermelhas</h5>
+                                        <small class="text-muted my-1">REF: 002BLCHOCO</small>
                                     </div>
                                 </div>
                             </td>
@@ -74,7 +74,7 @@
                 <p class="mb-3 text-center">Preencha os campos abaixo com os dados do endereço de entrega</p>
                 <fieldset>
                     <div class="form-group has-error">
-                        <input class="form-control input-lg" placeholder="Nome Completo" name="nome" type="text">
+                        <input class="form-control input-lg text-capitalize" placeholder="Nome Completo" name="nome" type="text">
                     </div>
                     <div class="form-row flex-wrap">
                         <div class="form-group has-error col-12 col-md-6">
@@ -86,13 +86,13 @@
                     </div>
                     <div class="form-row flex-wrap">
                         <div class="form-group has-error col-12 col-md-8">
-                            <input type="text" class="form-control" placeholder="Endereço" aria-describedby="enderecoHelp" id="inputEndereco" name="inputEndereco" required>
+                            <input type="text" class="form-control text-capitalize" placeholder="Endereço" aria-describedby="enderecoHelp" id="inputEndereco" name="inputEndereco" required>
                         </div>
                         <div class="form-group has-error col-12 col-md-1">
                             <input type="text" class="form-control" placeholder="Nº" aria-describedby="numeroHelp" id="inputNumero" name="inputNumero" required>
                         </div>
                         <div class="form-group has-error col-12 col-md-3">
-                            <input type="text" class="form-control" placeholder="Complemento" aria-describedby="complementoHelp" id="inputComplemento" name="inputComplemento" required>
+                            <input type="text" class="form-control text-capitalize" placeholder="Complemento" aria-describedby="complementoHelp" id="inputComplemento" name="inputComplemento" required>
                         </div>
                     </div>
                     <div class="form-row flex-wrap">
@@ -100,7 +100,7 @@
                             <input type="text" class="form-control" placeholder="CEP" name="inputCep" required>
                         </div>
                         <div class="form-group col-md-7 col-12">
-                            <input type="text" class="form-control" placeholder="Cidade" name="inputCidade" required>
+                            <input type="text" class="form-control text-capitalize" placeholder="Cidade" name="inputCidade" required>
                         </div>
                         <div class="form-group col-md-2 col-12">
                             <select class="form-control" name="inputUF" id="inputUF" required>
@@ -148,7 +148,7 @@
                 <fieldset>
                     <div class="form-group has-error">
                         <label for="nomeTitular">Nome do titular do cartão</label>
-                        <input type="text" class="form-control" placeholder="Nome Completo" aria-describedby="nomeTitular" id="nomeTitular" name="nomeTitular" required>
+                        <input type="text" class="form-control text-capitalize" placeholder="Nome Completo" aria-describedby="nomeTitular" id="nomeTitular" name="nomeTitular" required>
                     </div>
                     <div class="form-row flex-wrap">
                         <div class="form-group has-error col-md-6 col-12">

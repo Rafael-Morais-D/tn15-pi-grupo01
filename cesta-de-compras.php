@@ -9,7 +9,6 @@
         <section class="container">
             <div class="row-cesta mr-2 ml-2">
                 <form class="col-12 mb-3" id="carrinhoForm" action="pagamento.php" method="post">
-                    <h2 class="col-12 text-center text-info py-5 text-dark">Produtos selecionados</h2>
                     <p class="mb-5 text-center">Confira os produtos selecionados e clique em Finalizar Compra</p>
                     <table class="table">
                         <thead>
@@ -24,9 +23,9 @@
                             <tr>
                                 <td colspan="2">
                                     <div class="d-flex align-items-start justify-content-start flex-column flex-lg-row">
-                                        <img src="./assets/img/03_bakeandgo.jpg" alt="Produto 04" width="85px" height="auto">
-                                        <div class="text-left mx-0 mx-md-3">
-                                            <h5 class="my-0"><span class="cart-qtd">1</span> Pão Italiano</h5>
+                                        <img src="./assets/img/03_bakeandgo.jpg" alt="Produto 04" width="85px" height="auto" class="mr-3">
+                                        <div class="text-left">
+                                            <h5 class="my-1"><span class="cart-qtd">1</span> Pão Italiano</h5>
                                             <small class="text-muted my-0">REF: 001PAOITA</small>
                                         </div>
                                     </div>
@@ -86,9 +85,9 @@
                             <tr>
                                 <td colspan="2">
                                     <div class="d-flex align-items-start justify-content-start flex-column flex-lg-row">
-                                        <img src="./assets/img/05_bakeandgo.jpg" alt="Produto 04" width="85px" height="auto">
-                                        <div class="text-left mx-0 mx-md-3">
-                                            <h5 class="my-0"><span class="cart-qtd">2</span> Bolo de Chocolate com Cobertura de Chocolate</h5>
+                                        <img src="./assets/img/05_bakeandgo.jpg" alt="Produto 04" width="85px" height="auto" class="mr-3">
+                                        <div class="text-left">
+                                            <h5 class="my-1"><span class="cart-qtd">2</span> Bolo de Chocolate com frutas vermelhas</h5>
                                             <small class="text-muted my-0">REF: 002BLCHOCO</small>
                                         </div>
                                     </div>
@@ -156,10 +155,10 @@
                         <div class="form-group d-inline-block">
                             <label for="cupomDesconto">Cupom de Desconto</label>
                             <div>
-                                <input type="text" class="form-control col-lg-12" name="cupomDesconto" id="cupomDesconto" placeholder="INSIRA SEU CUPOM">
+                                <input type="text" class="form-control col-lg-12 text-uppercase" name="cupomDesconto" id="cupomDesconto" placeholder="INSIRA SEU CUPOM">
                             </div>
                         </div>
-                            <button type="submit" class="btn btn-info float-right col-lg-3 mt-3" form="carrinhoForm">Finalizar Compra</button>
+                            <button type="submit" class="btn btn-info float-right col-lg-3 mt-3 mb-5" form="carrinhoForm">Finalizar Compra</button>
                 </form>
             </div>
         </section>

@@ -76,7 +76,7 @@
                         </div>
                         <div class="form-group col-md-6">
                             <label for="inputNomeProduto">Produto</label>
-                            <input type="text" class="form-control" placeholder="Nome do produto"
+                            <input type="text" class="form-control text-capitalize" placeholder="Nome do produto"
                                 aria-describedby="adicionarProdutoHelp" id="inputNomeProduto" name="inputNomeProduto"
                                 required>
                         </div>
@@ -97,9 +97,9 @@
                                 required>
                         </div>
                         <div class="form-group col-md-6">
-                            <label for="inputID">REF</label>
-                            <input type="text" class="form-control" placeholder="001NOME"
-                                aria-describedby="adicionarID" id="inputID" name="inputID"
+                            <label for="inputREF">REF</label>
+                            <input type="text" class="form-control text-uppercase" placeholder="001NOME"
+                                aria-describedby="adicionarREF" id="inputREF" name="inputREF"
                                 required>
                         </div>
                         <div class="form-group col-md-6">
@@ -162,7 +162,7 @@
                         </div>
                         <div class="form-group col-md-6">
                             <label for="inputNomeProduto">Produto</label>
-                            <input type="text" class="form-control" placeholder="Nome do produto"
+                            <input type="text" class="form-control text-capitalize" placeholder="Nome do produto"
                                 aria-describedby="adicionarProdutoHelp" id="inputNomeProduto" name="inputNomeProduto"
                                 required>
                         </div>
@@ -183,9 +183,9 @@
                                 required>
                         </div>
                         <div class="form-group col-md-6">
-                            <label for="inputID">REF</label>
-                            <input type="text" class="form-control" placeholder="001NOME"
-                                aria-describedby="adicionarID" id="inputID" name="inputID"
+                            <label for="inputREF">REF</label>
+                            <input type="text" class="form-control text-uppercase" placeholder="001NOME"
+                                aria-describedby="adicionarREF" id="inputREF" name="inputREF"
                                 required>
                         </div>
                         <div class="form-group col-md-6">

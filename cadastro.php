@@ -10,17 +10,17 @@
                         <h3 class="text-center mb-4">Criar uma conta</h3>
                         <fieldset>
                             <div class="form-group has-error">
-                                <input class="form-control input-lg" placeholder="Nome Completo" name="nome" type="text">
+                                <input class="form-control input-lg text-capitalize" placeholder="Nome Completo" name="nome" type="text">
                             </div>
                             <div class="form-group has-error">
-                            <input type="text" class="form-control" placeholder="Endereço" aria-describedby="enderecoHelp" id="inputEndereco" name="inputEndereco" required>
+                            <input type="text" class="form-control text-capitalize" placeholder="Endereço" aria-describedby="enderecoHelp" id="inputEndereco" name="inputEndereco" required>
                             </div>
                             <div class="form-row">
                             <div class="form-group col-md-3">
                                 <input type="text" class="form-control" placeholder="CEP" name="inputCep" required>
                             </div>
                             <div class="form-group col-md-7">
-                                <input type="text" class="form-control" placeholder="Cidade" name="inputCidade" required>
+                                <input type="text" class="form-control text-capitalize" placeholder="Cidade" name="inputCidade" required>
                             </div>
                             <div class="form-group col-md-2">
                                 <select class="form-control" name="inputUF" id="inputUF" required>
@@ -58,25 +58,27 @@
                             <div class="form-group has-error">
                                 <input class="form-control input-lg" placeholder="Email" name="email" type="text">
                             </div>
-                            <div class="form-group has-success">
-                                <input class="form-control input-lg" placeholder="Senha" name="password" value="" type="password">
-                            </div>
-                            <div class="form-group has-success">
-                                <input class="form-control input-lg" placeholder="Confirmar Senha" name="password" value="" type="password">
-                            </div>
-                            
-
-                            <div class="checkbox">
-                                <label class="custom-control custom-checkbox">
-                                    <input class="custom-control-input" type="checkbox">
-                                    <span class="custom-control-label align-middle">Estou de acordo com os <a data-toggle="modal" href="#termosDeUso">Termos de Uso.</a></span>
-                                    </label>
-                            </div>
-                            <input class="btn btn-md btn-primary btn-block" value="Cadastrar" type="submit">
-                        </fieldset>
-                    </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="password" name="inputSenha" class="form-control" placeholder="Senha" aria-describedby="senhaHelp" id="inputSenha" required> 
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="password" class="form-control" placeholder="Confirma senha" aria-describedby="ConfirmaHelp" id="inputConfirma" name="inputConfirma" required>
+                                </div>
+                                </div>
+                                <div class="checkbox">
+                                    <label class="custom-control custom-checkbox">
+                                        <input class="custom-control-input" type="checkbox">
+                                        <span class="custom-control-label align-middle">Estou de acordo com os <a data-toggle="modal" href="#termosDeUso">Termos de Uso.</a></span>
+                                        </label>
+                                </div>
+                                <div class="col-12 text-center mt-4">
+                                <input class="btn btn-primary text-center" value="Cadastrar" type="submit">
+                                </div>
+                            </fieldset>
+                        </div>
+                </div>
             </div>
         </div>
-    </div>
     
 <?php require_once("./inc/footer.php"); ?>
