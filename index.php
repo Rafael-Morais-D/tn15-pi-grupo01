@@ -23,7 +23,7 @@
         <a href="./cesta-de-compras.php" class="btn hvr-icon-basket mb-4">Add a Cesta <i class="fa fa-shopping-basket hvr-icon"></i></a>
       </div>
       <div class="col-lg-5 col-md mx-auto">
-        <img class="img-fluid" src="./assets/img/03_bakeandgo.jpg" alt="">
+        <img class="img-fluid" src="./assets/img/03_bakeandgo.jpg" alt="Conheça nosso pão artesanal, feito com fermetação natural.">
         </div>
     </div>
     <div class="row" data-aos="fade-up" data-aos-duration="1500">
@@ -199,7 +199,7 @@
                     <p class="mb-5">Sábado — Domingo, das 10h às 16h</p>    
                     </div>                 
                     <div class="col-lg-6 order-lg-first">
-                      <img class="img-fluid" src="./assets/img/07_bakeandgo.jpg" alt="">
+                      <img class="img-fluid" src="./assets/img/07_bakeandgo.jpg" alt="Faça seu pedido também pelo WhatsApp.">
                     </div>
                   </div>
                 </section>

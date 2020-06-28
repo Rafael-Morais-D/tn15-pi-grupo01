@@ -14,7 +14,7 @@
             <a href="#" class="btn btn-primary quem-somos-btn mb-5">CONHEÇA NOSSOS PRODUTOS</a>
             </div>
             <div class="col-lg-5 col-md mx-auto order-lg-first">
-            <img class="img-fluid mb-5" src="./assets/img/10_bakeandgo.jpg" alt="">
+            <img class="img-fluid mb-5" src="./assets/img/10_bakeandgo.jpg" alt="Conheça e compre agora nossos produtos.">
             </div>
         </div>
     </section>
