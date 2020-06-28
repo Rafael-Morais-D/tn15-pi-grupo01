@@ -8,8 +8,8 @@
         </header>
         <section class="container">
             <div class="row-cesta mr-2 ml-2">
-                <form class="col-12 mb-3" id="carrinhoForm" action="pagamento.php" method="post">
-                    <p class="mb-5 text-center">Confira os produtos selecionados e clique em Finalizar Compra</p>
+                <form class="col-12 mb-3 link-continuar" id="carrinhoForm" action="pagamento.php" method="post">
+                    <p class="mb-5 text-center">Confira abaixo os produtos selecionados, clique em Finalizar Compra ou <a href="index.php">continue comprando</a></p>
                     <table class="table">
                         <thead>
                             <tr>

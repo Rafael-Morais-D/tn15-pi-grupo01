@@ -286,6 +286,15 @@ section.btn {
   color: #8f793c!important;
 }
 
+.catAtendimento h3, h4 {
+  font-size: 1.05em;
+  text-align: center;
+}
+
+.catAtendimento p {
+  text-align: center;
+}
+
 .email-mensagem a {
   color: #000;
 }
@@ -568,6 +577,19 @@ nav.nav-cliente a {
   border: 1px solid #ced4da;
   border-radius: .25rem;
 }
+
+.contato p {
+  font-size: 0.9em;
+}
+
+.contato a {
+  color: #000;
+}
+.contato a:hover {
+  color: #8f793c;
+  text-decoration: none;
+}
+
 
 /* MEDIA QUERIES */
 

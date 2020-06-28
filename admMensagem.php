@@ -10,7 +10,7 @@
             <thead>
                 <tr>
                     <th scope="col">ID</th>
-                    <th scope="col">Nome Completo</th>
+                    <th scope="col">Nome</th>
                     <th scope="col">Email</th>
                     <th scope="col-2">Mensagem</th>
                     <th scope="col">Excluir</th>

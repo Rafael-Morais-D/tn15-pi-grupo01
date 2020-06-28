@@ -191,13 +191,13 @@
               <!-- Section - Atendimento -->
               <section class="catAtendimento">
                 <div class="row py-4" data-aos="fade-up" data-aos-duration="1500">
-                  <div class="col-lg-6 w-100 my-auto mb-4 text-center text-lg-left">
+                  <div class="col-lg-6 w-100 my-auto mb-4 text-lg-left">
                     <h3>Das nossas mão para sua mesa!</h3>          
-                    <p>Peça também pelo <a href="#">WhatsApp<i class="ic-wa fab fa-whatsapp fa-lg text-dark ml-2"></a></i></p>
-                    <p class="mt-4 mb-0">Atendimento e delivery</p>
-                    <p class="mb-0">Segunda—Segunda</p>
-                    <p class="mb-5">10h às 18h</p>                    
-                    </div>
+                    <h4>Peça também pelo <a href="#">WhatsApp<i class="ic-wa fab fa-whatsapp fa-lg text-dark ml-2"></a></i></h4>
+                    <h4 class="mt-5 mb-2">Atendimento e delivery</h4>
+                    <p class="mb-0">Segunda — Sexta, das 9h às 17h</p>
+                    <p class="mb-5">Sábado — Domingo, das 10h às 16h</p>    
+                    </div>                 
                     <div class="col-lg-6 order-lg-first">
                       <img class="img-fluid" src="./assets/img/07_bakeandgo.jpg" alt="">
                     </div>
