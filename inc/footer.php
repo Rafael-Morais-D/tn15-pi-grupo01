@@ -6,13 +6,13 @@
                 <!-- REDES SOCIAIS -->
                 <div class="col-12 mb-5 text-center">
                     <div style="font-size: 1.1rem;">
-                    <a href="#" target="_blank" title="Curta nossa página no Facebook" class="fb-ic ">
+                    <a href="https://www.facebook.com/bakeandgo.coffeeshop/" target="_blank" title="Curta nossa página no Facebook" class="fb-ic ">
                         <i class="fab fa-facebook-f fa-lg text-white mr-2 ml-2 mr-md-3 ml-md-3"> </i>
                     </a>
-                    <a href="#" target="_blank" title="Siga nosso perfil no Twitter" class="tw-ic ">
+                    <a href="https://twitter.com/bakeandgoshop" target="_blank" title="Siga nosso perfil no Twitter" class="tw-ic ">
                         <i class="fab fa-twitter fa-lg text-white mr-2 ml-2 mr-md-3 ml-md-3"> </i>
                     </a>
-                    <a href="#" target="_blank" title="Siga nosso perfil no Instagram" class="ins-ic">
+                    <a href="https://www.instagram.com/bakeandgo.coffeeshop/" target="_blank" title="Siga nosso perfil no Instagram" class="ins-ic">
                         <i class="fab fa-instagram fa-lg text-white mr-2 ml-2 mr-md-3 ml-md-3"> </i>
                     </a>
                     <a href="#" target="_blank" title="Envie uma mensagem no WhatsApp" class="wa-ic">

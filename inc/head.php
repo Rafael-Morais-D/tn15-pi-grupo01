@@ -33,7 +33,7 @@
             "postalCode": "04548-000",
             "streetAddress": "Av. Dr. Cardoso de Melo, 90 - Vila Olímpia"
         },
-        "sameAs": ["https://www.instagram.com/", "https://www.facebook.com/"],
+        "sameAs": ["https://www.instagram.com/bakeandgo.coffeeshop/", "https://www.facebook.com/bakeandgo.coffeeshop/"],
         "brand": [
                 { "@type": "brand", "name": "Bake & Go", "url": "#" }
         ]
