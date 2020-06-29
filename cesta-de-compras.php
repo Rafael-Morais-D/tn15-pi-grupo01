@@ -38,7 +38,7 @@
                                 </td>
                                 <!-- Modal Produto 01 -->
                                 <div class="modal fade mt-5" id="modalProduto01" tabindex="-1" role="dialog" aria-labelledby="modalProduto01Label" aria-hidden="true">
-                                    <div class="modal-dialog" role="document">
+                                    <div class="modal-dialog modal-sm" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
                                                 <h5 class="modal-title" id="modalProduto01Label">Adicionar</h5>
@@ -52,7 +52,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix mb-0">
-                                                        <button data-dismiss="modal" class="mx-auto my-auto btn btn-info btn-md col-md-3 mb-0">Atualizar</button>
+                                                        <button data-dismiss="modal" class="btn btn-primary">Atualizar</button>
                                                     </div>
                                                 </div>
                                             </div>
