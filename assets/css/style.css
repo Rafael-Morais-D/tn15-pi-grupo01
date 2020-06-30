@@ -226,13 +226,17 @@ section.btn {
 
 i.fa-pencil-alt:hover::before {
   color: #8f793c;
+  transition: all ease-in-out 0.4s;
 }
 i.fa-trash-alt:hover::before {
   color: #8f793c;
+  transition: all ease-in-out 0.4s;
 }
 i.fa-plus-circle:hover::before {
   color: #8f793c;
+  transition: all ease-in-out 0.4s;
 }
+
 .catProdutos h3 {
   font-family: 'GTAmerica-ExtendedMedium', 'Courier New', Courier, monospace;
   font-size: 0.9em;
@@ -318,6 +322,7 @@ i.fa-plus-circle:hover::before {
 
 .ic-basket:hover {
   color: #8f793c;
+  transition: all ease-in-out 0.4s;
 }
 
 .table { 
@@ -527,7 +532,6 @@ nav.nav-cliente a {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 90%, #000000 100%), url('../img/404.jpg')!important;
   background-position: center;
   background-repeat: no-repeat;
-  /* background-attachment: scroll; */
   background-size: cover;
   color: #fff;
 
