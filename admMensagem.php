@@ -28,7 +28,7 @@
                     </td>
                     <td scope="row">
                         <a href="#" data-toggle="modal" data-target="#modal">
-                            <i class="fas fa-trash text-dark"></i>
+                            <i class="fas fa-trash-alt text-dark"></i>
                         </a>
                     </td>
                 </tr>
@@ -42,7 +42,7 @@
                     </td>
                     <td>
                         <a href="#" data-toggle="modal" data-target="#modal">
-                            <i class="fas fa-trash text-dark"></i>
+                            <i class="fas fa-trash-alt text-dark"></i>
                         </a>
                     </td>
                 </tr>
@@ -57,7 +57,7 @@
                     </td>
                     <td>
                         <a href="#" data-toggle="modal" data-target="#modal">
-                            <i class="fas fa-trash text-dark"></i>
+                            <i class="fas fa-trash-alt text-dark"></i>
                         </a>
                     </td>
                 </tr>

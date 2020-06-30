@@ -24,7 +24,7 @@
                     <td scope="row">111.222.333-44</td>
                     <td>
                         <a href="#" data-toggle="modal" data-target="#modal">
-                            <i class="fas fa-trash text-dark"></i>
+                            <i class="fas fa-trash-alt text-dark"></i>
                         </a>
                     </td>
                 </tr>
@@ -35,7 +35,7 @@
                     <td scope="row">111.222.333-45</td>
                     <td>
                         <a href="#" data-toggle="modal" data-target="#modal">
-                            <i class="fas fa-trash text-dark"></i>
+                            <i class="fas fa-trash-alt text-dark"></i>
                         </a>
                     </td>
                 </tr>
@@ -46,7 +46,7 @@
                     <td scope="row">111.222.333-46</td>
                     <td>
                         <a href="#" data-toggle="modal" data-target="#modal">
-                            <i class="fas fa-trash text-dark"></i>
+                            <i class="fas fa-trash-alt text-dark"></i>
                         </a>
                     </td>
                 </tr>

@@ -33,8 +33,8 @@
                                 <td class="cart-unit-price d-none d-md-table-cell">R$12</td>
                                 <td class="cart-subtotal-price">R$12</td>
                                 <td>
-                                    <a href="#" class="ml-3" data-toggle="modal" data-target="#modalProduto01"><i class="fas fa-pencil text-dark"></i></a>
-                                    <a href="#" data-toggle="modal" data-target="#modal"><i class="fas fa-trash text-dark"></i>
+                                    <a href="#" class="ml-3" data-toggle="modal" data-target="#modalProduto01"><i class="fas fa-pencil-alt text-dark"></i></a>
+                                    <a href="#" data-toggle="modal" data-target="#modal"><i class="fas fa-trash-alt text-dark"></i>
                                 </td>
                                 <!-- Modal Produto 01 -->
                                 <div class="modal fade mt-5" id="modalProduto01" tabindex="-1" role="dialog" aria-labelledby="modalProduto01Label" aria-hidden="true">
@@ -95,8 +95,8 @@
                                 <td class="cart-unit-price d-none d-md-table-cell">R$25</td>
                                 <td class="cart-subtotal-price">R$25</td>
                                 <td>
-                                    <a href="#" class="ml-3" data-toggle="modal" data-target="#modalProduto01"><i class="fas fa-pencil text-dark"></i></a>
-                                    <a href="#" data-toggle="modal" data-target="#modal"><i class="fas fa-trash text-dark"></i>
+                                    <a href="#" class="ml-3" data-toggle="modal" data-target="#modalProduto01"><i class="fas fa-pencil-alt text-dark"></i></a>
+                                    <a href="#" data-toggle="modal" data-target="#modal"><i class="fas fa-trash-alt text-dark"></i>
                                 </td>
                                 <!-- Modal Produto 02 -->
                                 <div class="modal fade mt-5" id="modalProduto01" tabindex="-1" role="dialog" aria-labelledby="modalProduto01Label" aria-hidden="true">

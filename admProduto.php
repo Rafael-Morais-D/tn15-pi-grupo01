@@ -30,12 +30,12 @@
                     <td scope="row">Pães</td>
                     <td>
                         <a href="#" data-toggle="modal" data-target="#modalAddProduto">
-                            <i class="fas fa-pencil text-dark"></i>
+                            <i class="fas fa-pencil-alt text-dark"></i>
                         </a>
                     </td>
                     <td>
                         <a href="#" data-toggle="modal" data-target="#modal">
-                            <i class="fas fa-trash text-dark"></i>
+                            <i class="fas fa-trash-alt text-dark"></i>
                         </a>
                     </td>
                 </tr>
@@ -47,12 +47,12 @@
                     <td scope="row">Bolos</td>
                     <td>
                         <a href="#" data-toggle="modal" data-target="#modalAddProduto">
-                            <i class="fas fa-pencil text-dark"></i>
+                            <i class="fas fa-pencil-alt text-dark"></i>
                         </a>
                     </td>
                     <td>
                         <a href="#" data-toggle="modal" data-target="#modal">
-                            <i class="fas fa-trash text-dark"></i>
+                            <i class="fas fa-trash-alt text-dark"></i>
                         </a>
                     </td>
                 </tr>
