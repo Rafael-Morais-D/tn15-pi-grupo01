@@ -3,13 +3,13 @@
 <?php require_once("./inc/header.php"); ?>
 <?php require_once("./inc/header-cliente.php"); ?>
 
-<main class="container minha-conta py-5 mt-5">
+<main class="container minha-conta py-5 mt-5 adm-pag">
     <div class="d-flex justify-content-between align-items-center link-continuar">
-        <h2>Minha Conta</h2>
+        <h2 class="mb-0">Minha Conta</h2>
         <a href="index.php">Continuar comprando</a>
     </div>
     <hr class="accent my-4">
-    <h3 class="mb-4 text-center">Olá, Exemplilson da Silva 1</h3>
+    <h3 class="mb-4 text-center">Olá Exemplilson da Silva 1</h3>
         <div class="form-cadastro">
             <div class="col-lg-7 mx-auto">
                     <div class="card card-body">

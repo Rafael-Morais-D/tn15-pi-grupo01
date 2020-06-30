@@ -3,8 +3,8 @@
 <?php require_once("./inc/header.php"); ?>
 <?php require_once("./inc/header-adm.php"); ?>
 
-<main class="container email-mensagem py-5 mt-5">
-    <h2>Mensagens</h2>
+<main class="container email-mensagem py-5 mt-5 adm-pag">
+    <h2 class="mb-4">Mensagens</h2>
     <div class="table-responsive">
         <table class="table table-bordered table-hover text-center">
             <thead>

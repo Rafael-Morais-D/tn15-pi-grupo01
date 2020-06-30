@@ -3,8 +3,8 @@
 <?php require_once("./inc/header.php"); ?>
 <?php require_once("./inc/header-adm.php"); ?>
 
-<main class="container py-5 mt-5">
-    <h2>Produtos</h2>
+<main class="container py-5 mt-5 adm-pag">
+    <h2 class="mb-4">Produtos</h2>
     <div class="table-responsive">
         <table class="table table-bordered table-hover text-center">
             <thead>
@@ -62,7 +62,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title">Editar produto</h3>
+                    <h5 class="modal-title">Editar produto</h5>
                 </div>
                 <br>
                 <form class="container">
@@ -148,7 +148,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title">Adicionar produto</h3>
+                    <h5 class="modal-title">Adicionar produto</h5>
                 </div>
                 <br>
                 <form class="container">

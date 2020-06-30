@@ -3,8 +3,8 @@
 <?php require_once("./inc/header.php"); ?>
 <?php require_once("./inc/header-adm.php"); ?>
 
-<main class="container py-5 mt-5">
-    <h2>Usuários</h2>
+<main class="container py-5 mt-5 adm-pag">
+    <h2 class="mb-4">Usuários</h2>
     <div class="table-responsive">
         <table class="table table-bordered table-hover text-center">
             <thead>

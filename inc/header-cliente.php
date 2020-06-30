@@ -28,7 +28,7 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <p>Deseja realmente sair do painel de controle?</p>
+                        <p>Deseja realmente sair da sua conta?</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary mb-0" data-dismiss="modal">Cancelar</button>
