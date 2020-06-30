@@ -4,8 +4,11 @@
 <?php require_once("./inc/header-adm.php"); ?>
 
 <main class="container py-5 mt-5 adm-pag">
-    <h2 class="mb-4">Categorias</h2>
-    <div class="table-responsive">
+    <div class="d-flex justify-content-between align-items-center">
+        <h2 class="mb-0">Categorias</h2>
+        <p>Adicionar uma categoria <a href="#" data-toggle="modal" data-target="#modalAdd"><i class="far fa-plus-circle text-dark"></i></a></p>
+    </div>
+    <div class="table-responsive mt-4">
         <table class="table table-bordered table-hover text-center">
             <thead>
                 <tr>
@@ -114,10 +117,6 @@
                 </div>
             </div>
         </div>
-        <p class="font-weight-bold">Adicionar uma categoria
-            <a href="#" data-toggle="modal" data-target="#modalAdd">
-                <i class="far fa-plus-square text-dark"></i>
-            </a></p>
         <!-- Modal - Adicione uma categoria -->
         <div class="modal fade" id="modalAdd" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
             aria-hidden="true">

@@ -503,6 +503,11 @@ nav.nav-cliente a {
 .adm-pag h2 {
   font-size: 1.5em;
 }
+.adm-pag p {
+  font-size: 0.95em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 .error {
   position: relative;
