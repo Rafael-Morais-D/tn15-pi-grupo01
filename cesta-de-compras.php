@@ -23,7 +23,7 @@
                             <tr>
                                 <td colspan="2">
                                     <div class="d-flex align-items-start justify-content-start flex-column flex-lg-row">
-                                        <img src="./assets/img/03_bakeandgo.jpg" alt="Produto 04" width="85px" height="auto" class="mr-3">
+                                        <img src="./assets/img/03_bakeandgo.jpg" alt="Produto 04" width="65px" height="auto" class="mr-3">
                                         <div class="text-left">
                                             <h5 class="my-1"><span class="cart-qtd">1</span> Pão Italiano</h5>
                                             <small class="text-muted my-0">REF: 001PAOITA</small>
@@ -85,7 +85,7 @@
                             <tr>
                                 <td colspan="2">
                                     <div class="d-flex align-items-start justify-content-start flex-column flex-lg-row">
-                                        <img src="./assets/img/05_bakeandgo.jpg" alt="Produto 04" width="85px" height="auto" class="mr-3">
+                                        <img src="./assets/img/05_bakeandgo.jpg" alt="Produto 04" width="65px" height="auto" class="mr-3">
                                         <div class="text-left">
                                             <h5 class="my-1"><span class="cart-qtd">2</span> Bolo de Chocolate com frutas vermelhas</h5>
                                             <small class="text-muted my-0">REF: 002BLCHOCO</small>
