@@ -224,6 +224,15 @@ section.btn {
   }
 }
 
+i.fa-pencil-alt:hover::before {
+  color: #8f793c;
+}
+i.fa-trash-alt:hover::before {
+  color: #8f793c;
+}
+i.fa-plus-circle:hover::before {
+  color: #8f793c;
+}
 .catProdutos h3 {
   font-family: 'GTAmerica-ExtendedMedium', 'Courier New', Courier, monospace;
   font-size: 0.9em;
@@ -598,7 +607,6 @@ nav.nav-cliente a {
   color: #8f793c;
   text-decoration: none;
 }
-
 
 /* MEDIA QUERIES */
 
