@@ -47,7 +47,7 @@
           </div>
           <div class="card-columns" data-aos="fade-up" data-aos-duration="1500">
             <div class="card card-body">
-              <div class="d-flex justify-content-between align-items-center">
+              <div class="d-flex justify-content-between align-items-start">
                 <h3 class="text-truncate sliding-u-l-r-l">Pão Italiano</h3>
                 <h4>R$12</h4>
               </div>
@@ -72,7 +72,7 @@
                 </div>  
               </div>
               <div class="card card-body">
-                <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex justify-content-between align-items-start">
                   <h3 class="text-truncate sliding-u-l-r-l">Bagel</h3>
                   <h4>R$8</h4>
                 </div>
@@ -97,7 +97,7 @@
                 </div>
               </div>
               <div class="card card-body">
-                <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex justify-content-between align-items-start">
                   <h3 class="text-truncate sliding-u-l-r-l">Cheesecake</h3>
                   <h4>R$14</h4>
                 </div>
@@ -122,7 +122,7 @@
                   </div>
                 </div>
                 <div class="card card-body">
-                  <div class="d-flex justify-content-between align-items-center">
+                  <div class="d-flex justify-content-between align-items-start">
                     <h3 class="text-truncate sliding-u-l-r-l">Croissant</h3>
                     <h4>R$10</h4>
                   </div>
