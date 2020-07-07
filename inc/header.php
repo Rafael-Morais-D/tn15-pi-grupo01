@@ -15,10 +15,10 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
                         <div class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Pães e Bolos</a>
-                            <a class="dropdown-item" href="#">Frios</a>
-                            <a class="dropdown-item" href="#">Lanches e Salgados</a>
-                            <a class="dropdown-item" href="#">Mercearia</a>
+                            <a class="dropdown-item" href="produtos.php">Pães e Bolos</a>
+                            <a class="dropdown-item" href="produtos.php">Frios</a>
+                            <a class="dropdown-item" href="produtos.php">Lanches e Salgados</a>
+                            <a class="dropdown-item" href="produtos.php">Mercearia</a>
                         </div>
                 </li>
                 <li class="nav-item">
@@ -56,7 +56,7 @@
                     </div>
                     <div class="modal-footer">
                         <p class="pt-3">Novo por aqui? <a href="cadastro.php" class="d-inline-block">Cadastre-se agora!</a></p>
-                        <button type="button" class="btn btn-primary mb-0" data-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-primary mb-0" style="width: 140px" data-dismiss="modal">Fechar</button>
                         <button type="submit" class="btn btn-primary mb-0" data-dismiss="modal">Login</button>
                     </div>
                     </div>
