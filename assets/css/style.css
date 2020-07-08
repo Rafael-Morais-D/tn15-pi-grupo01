@@ -679,3 +679,11 @@ nav.nav-cliente a {
     flex-direction: column;
     }
 }
+
+.tales {
+  width: 100%;
+}
+.carousel-inner{
+  width:100%;
+  height: 550px;
+}
